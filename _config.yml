@@ -22,7 +22,7 @@ title: alpha.zero
 email: dotzeroalpha@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     alpha.zero: me and you
-baseurl: /site # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: https://alphazero-official.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 1oolm
 github_username:  alphazero-official

@@ -2,7 +2,7 @@
 name: Masernerd
 credit: Bottom
 color: "#910FAB"
-link: /site/about/masernerd.html
+link: /about/masernerd.html
 layout: page
 title: About Masernerd
 ---
