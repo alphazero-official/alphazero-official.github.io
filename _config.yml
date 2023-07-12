@@ -44,6 +44,10 @@ collections:
       - clickerty.md
       - extremisea.md
       - masernerd.md
+  credits:
+    output: true
+    permalink: /:name
+
 
 disqus:
   shortname: alphazero-1

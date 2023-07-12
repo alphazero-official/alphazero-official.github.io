@@ -1,0 +1,14 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "Local Server",
+      "appliesTo": "*",
+      "type": "default",
+      "command": "${env.COMSPEC}",
+      "args": [
+        "bundle exec jekyll serve"
+      ]
+    }
+  ]
+}
