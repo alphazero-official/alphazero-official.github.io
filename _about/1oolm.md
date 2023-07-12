@@ -8,11 +8,6 @@ title: About 1oolm
 ---
 
 Dumbass bitch
-
-
-### Biography
-was born   
-
-
-#### Their biggest contributions include:  
+    
+#### Contributions include:  
 - alpha.zero

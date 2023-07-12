@@ -39,6 +39,11 @@ collections:
     output: true
     people: true
     permalink: /:collection/:name
+    order:
+      - 1oolm.md
+      - clickerty.md
+      - extremisea.md
+      - masernerd.md
 
 disqus:
   shortname: alphazero-1
