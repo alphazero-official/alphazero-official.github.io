@@ -7,12 +7,15 @@ layout: page
 title: About Clickerty
 ---
 
-[TBA]
+Some fuck who uuhhhhh wait shit theres a rat in this room i need to
 
 
 ### Biography
-[TBA]   
+what am i even supposed to list here ok uuhhh ah shit the rat is now on the computer please dont bite through it and stop me from   
 
 
 #### Their biggest contributions include:  
-- [TBA]
+- existing
+- lore i guess idk they named a ton of characters
+- wait fuck no the rat is biting through the computer its DESTROYING EVERYTHING FUCK NO NONONONONONONONNO
+
