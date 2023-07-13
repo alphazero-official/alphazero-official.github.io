@@ -27,3 +27,6 @@ if (rand == 4) { document.getElementById("azlogo").style.transform = "rotate("+ 
 / 
 <a href="/posts/"><font color ="#AAAAFF">POSTS</font></a>
 </font></p>
+<br>
+<p align="center"><font color="#BBBBBB" size="4">We're still under development. Be patient!</font></p>
+<p align="center"><font color="#AAAAAA" size="3">(Everything is subject to change)</font></p>

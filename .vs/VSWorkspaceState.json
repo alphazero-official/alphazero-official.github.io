@@ -2,10 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\image",
+    "\\assets\\js",
+    "\\assets\\sound",
     "\\_about",
-    "\\_credits"
+    "\\_credits",
+    "\\_data",
+    "\\_includes",
+    "\\_layouts"
   ],
-  "SelectedNode": "\\_credits\\acknowledgements.md",
+  "SelectedNode": "\\posts.md",
   "PreviewInSolutionExplorer": false
 }

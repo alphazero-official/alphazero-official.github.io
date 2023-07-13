@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About extremisea
+title: About Extremisea
 ---
 
 **Extremisea** (a.k.a. Oceanic or Sea) is a person. TBA    
