@@ -1,8 +1,4 @@
 ---
-name: Extremisea
-credit: Writing & Design Assistance
-color: "#63C5DA"
-link: /about/extremisea.html
 layout: page
 title: About extremisea
 ---

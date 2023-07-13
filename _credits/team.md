@@ -5,7 +5,7 @@ permalink: /team/
 ---
 
 ### alpha.zero is:   
-{% for member in site.about %}
+{% for member in site.data.staff %}
 <h4>
 <a href="{{ member.link }}"><font color="{{ member.color }}">{{ member.name }}</font></a>: {{ member.credit }}
 </h4>
@@ -13,5 +13,6 @@ permalink: /team/
 [TBA] <font color="#AAAAAA">some other people too?</font> <br>
 <br>
 <br>
+
 
 #### You can also view lists of [contributors](/contributors/), [acknowledgements](/acknowledgements/) and [special thanks](/specialthanks/)

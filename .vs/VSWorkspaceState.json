@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_about"
+    "\\assets",
+    "\\assets\\image",
+    "\\_about",
+    "\\_credits"
   ],
-  "SelectedNode": "\\_about\\extremisea.md",
+  "SelectedNode": "\\_credits\\acknowledgements.md",
   "PreviewInSolutionExplorer": false
 }

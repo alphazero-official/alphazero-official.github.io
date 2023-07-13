@@ -3,6 +3,7 @@ layout: page
 title: Contributors
 permalink: /contributors/
 ---
+{% assign mas = site.data.contributors["masernerd"] %}
 List of contributions made by people past and present.<br>(Might not be exhaustive)  
 <br>
 <br>
@@ -14,4 +15,6 @@ AddisonJudah, Artem4ikBaik, badass person 500, Dgiorn, Instatex, InvadedPurple, 
 <br>
 <br>
 ## <font color="FFFFFF">Miscellaneous</font>
+<a href="{{ mas.link }}" title="{{ mas.name }}"><font color="{{ mas.color }}">{{ mas.name }}</font></a>: {{ mas.credit }}
+<br>
 MasterCatGodsWhyIms: Original idea for WHG Project

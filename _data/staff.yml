@@ -1,0 +1,14 @@
+- name: 1oolm # Proper name
+  credit: Lead Developer # Staff position/contribution
+  color: "#4F0985" # Name colour
+  link: /about/1oolm.html # Link to about page
+
+- name: Clickerty
+  credit: Writer & Designer
+  color: "#0F65AB"
+  link: /about/clickerty.html
+
+- name: Extremisea
+  credit: Writing & Design Assistance
+  color: "#63C5DA"
+  link: /about/extremisea.html
