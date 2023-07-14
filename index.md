@@ -24,7 +24,6 @@ if (rand == 4) { document.getElementById("azlogo").style.transform = "rotate("+ 
 var i = 0;
 var txt = messages[rand]; /* The text */
 var speed = 25; /* The speed/duration of the effect in milliseconds */
-
 function typeWriter() {
 
   if (i < txt.length) {
