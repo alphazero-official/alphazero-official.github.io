@@ -7,7 +7,7 @@ module Jekyll
     end
 
     def render(context)
-      "#{@text} #{{ Time.now | date_to_xmlschema }}"
+      "#{@text} #{Time.now}"
     end
   end
 end
