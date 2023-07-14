@@ -224,6 +224,20 @@ pre {
 }
 
 
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: #FFFFFF;
+    height: 1px;
+}
+
+#line {
+    float: left;
+    width: 731px;
+    height: 10px;
+}
 
 /**
  * Tables

@@ -21,11 +21,14 @@
 title: alpha.zero
 email: dotzeroalpha@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    alpha.zero: me and you
 baseurl: # the subpath of your site, e.g. /blog
 url: https://alphazero-official.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 1oolm
+twitter_username: alphazeroOFF
+youtube_username: alphazeroOfficial
 github_username:  alphazero-official
+github_repo: "alphazero-official/alphazero-official.github.io"
+discord_link: eSSxHQQEGf
+roblox_group: "15888497"
 
 # Build settings
 theme: minima

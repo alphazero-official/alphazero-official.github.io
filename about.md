@@ -7,4 +7,4 @@ alpha.zero is a development studio started by 1oolm in 2022. We do uhh.. can we 
 <br>
 ### [TBA]
 <br>
-A list of the people part of alpha.zero can be found [here](/team/)
+<font size="4">A list of the people part of alpha.zero can be found <a href="/team/"><u>here</u></a></font>
