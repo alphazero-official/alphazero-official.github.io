@@ -3,7 +3,10 @@ layout: page
 title: Team
 permalink: /team/
 ---
-
+<font color="#CCCCCC" size="5"> <a href="/contributors/">Contributors</a> / <a href="/acknowledgements/">Acknowledgements</a> / <a href="/specialthanks/">Special Thanks</a></font>
+<br>
+  <div id="line"><hr /></div>
+<br>
 ### alpha.zero is:   
 {% for member in site.data.staff %}
 <h4>
@@ -11,8 +14,3 @@ permalink: /team/
 </h4>
 {% endfor %}
 [TBA] <font color="#AAAAAA">some other people too?</font> <br>
-<br>
-<br>
-
-
-#### You can also view lists of [contributors](/contributors/), [acknowledgements](/acknowledgements/) and [special thanks](/specialthanks/)

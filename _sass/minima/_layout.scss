@@ -24,12 +24,33 @@
   }
 }
 
+input,
+textarea {
+    font-family: $base-font-family;
+    font-size: 100%;
+    width: 90%;
+    background: #333333;
+    border-color: #AAAAAA;
+    color: white;
+    display: inline;
+}
+
+.search {
+    text-align: center;
+    width: 40%;
+    float: left;
+    position: relative;
+    align-content:center;
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
+
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
-      display: none;
+      display: inline-block;
   }
 
   .menu-icon {

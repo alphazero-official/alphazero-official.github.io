@@ -4,12 +4,13 @@
     "\\assets",
     "\\assets\\js",
     "\\assets\\sound",
-    "\\_about",
     "\\_credits",
-    "\\_data",
     "\\_includes",
     "\\_layouts",
-    "\\_posts"
+    "\\_posts",
+    "\\_sass",
+    "\\_sass\\minima"
   ],
+  "SelectedNode": "\\_posts\\2023-07-15-heeyy.md",
   "PreviewInSolutionExplorer": false
 }

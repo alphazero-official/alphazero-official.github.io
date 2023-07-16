@@ -180,6 +180,7 @@ pre {
   margin-left: auto;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
+
   @extend %clearfix;
 
   @include media-query($on-laptop) {
@@ -234,13 +235,13 @@ hr {
 
 #line {
     float: left;
-    width: 731px;
+    width: 60%;
     height: 10px;
 }
 
 #line-s {
     float: left;
-    width: 300px;
+    width: 40%;
     height: 10px;
 }
 

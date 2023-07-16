@@ -11,4 +11,4 @@ title: About 1oolm
 
 #### Contributions include:  
 - alpha.zero
-- Most of the programming, design, ideas, and overall lead. <br>I'm the creator, man.
+- Most of the programming, design, ideas, and overall lead
