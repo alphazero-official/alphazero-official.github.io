@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\js",
     "\\assets\\sound",
+    "\\_about",
     "\\_credits",
     "\\_includes",
     "\\_layouts",
@@ -11,6 +11,6 @@
     "\\_sass",
     "\\_sass\\minima"
   ],
-  "SelectedNode": "\\_posts\\2023-07-15-heeyy.md",
+  "SelectedNode": "\\_about\\1oolm.md",
   "PreviewInSolutionExplorer": false
 }

@@ -18,8 +18,14 @@ layout: default
 </style>
 
 <div class="container">
-  <h1>404</h1>
+    <h1>//<font color="#FF4444"> 404 </font>//</h1>
+    <p><strong>Page not found</strong></p>
+    <br>
+    <p align="center"><font size="4"><span id="message"> Sorry about that. </span></font></p>
+    <script>
+        const messages = ["[HYPERLINK BLOCKED]", "Sorry about that...", "Better add that later!", "Call support", "Misinput?", "The cat has gone loose", "mb", "REALLY", "I'm sorry to interrupt you, Elizabeth, \n if you still even remember that name."]
+        const rand = Math.floor(Math.random() * messages.length)
 
-  <p><strong>Page not found</strong></p>
-  <p>Sorry about that.</p>
+        document.getElementById("message").textContent = messages[rand]
+    </script>
 </div>

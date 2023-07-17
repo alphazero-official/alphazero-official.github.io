@@ -19,8 +19,9 @@ AddisonJudah, Artem4ikBaik, badass person 500, Dgiorn, Instatex, InvadedPurple, 
 ## <font color="FFFFFF">Miscellaneous</font>
 <div id="line-s"><hr /></div>
 <br>
-<a href="{{ mas.link }}" title="{{ mas.name }}"><font color="{{ mas.color }}">{{ mas.name }}</font></a>: {{ mas.credit }} <br>
-Artem4ikBaik: Standard Notation formatting code for Roblox WHG + exceptional bugtesting &#x1F3C5;
+
+- <a href="{{ mas.link }}" title="{{ mas.name }}"><font color="{{ mas.color }}">{{ mas.name }}</font></a>: {{ mas.credit }} <br>
+- Artem4ikBaik: Standard Notation formatting code for Roblox WHG + exceptional bugtesting &#x1F3C5;
 <br>
-MasterCatGodsWhyIms: Original idea for WHG Project
+- MasterCatGodsWhyIms: Original idea for WHG Project
 

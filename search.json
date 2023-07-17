@@ -2,12 +2,14 @@
 ---
 [
   {% for post in site.posts %}
+  {% unless post.unlisted %}
     {
 
       "title"    : "{{ post.title | escape }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date | date_to_string }}"
     } {% unless forloop.last %},{% endunless %}
+  {% endunless %}
   {% endfor %}
   ,
   {% for kitty in site.about %}
