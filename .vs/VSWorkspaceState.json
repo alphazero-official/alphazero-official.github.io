@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\assets",
+    "\\assets\\js",
     "\\assets\\sound",
     "\\_about",
     "\\_credits",
     "\\_includes",
     "\\_layouts",
-    "\\_posts",
     "\\_sass",
     "\\_sass\\minima"
   ],
-  "SelectedNode": "\\_about\\1oolm.md",
+  "SelectedNode": "\\_layouts\\posts.html",
   "PreviewInSolutionExplorer": false
 }
