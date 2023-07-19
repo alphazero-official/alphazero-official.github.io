@@ -44,6 +44,10 @@ typeWriter();
 <span id="posts">
 <a href="/posts/"><font color ="#AAAAFF">POSTS</font></a>
 </span>
+/
+<span id="music">
+<a href="/music/"><font color ="#AAAAFF">MUSIC</font></a>
+</span>
 </font></p>
 <br>
 <p align="center"><font color="#BBBBBB" size="4">We're still under development. Be patient!</font></p>

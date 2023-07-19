@@ -51,6 +51,7 @@ collections:
     output: true
     permalink: /:name
 
+logo: "/assets/image/AZ2022.png"
 
 disqus:
   shortname: alphazero-1
