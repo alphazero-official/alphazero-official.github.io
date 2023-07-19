@@ -10,4 +10,4 @@ His involvement currently doesn't go much further than *Masernerd Mode*, an insi
 <br>
 <br>
 #### Contributions include:  
-- IDK
+- TBA
