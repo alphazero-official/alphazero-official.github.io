@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\js",
-    "\\assets\\sound",
+    "\\assets\\image",
+    "\\assets\\music",
+    "\\assets\\music\\1kije3",
     "\\_about",
     "\\_credits",
+    "\\_data",
     "\\_includes",
-    "\\_layouts",
-    "\\_sass",
-    "\\_sass\\minima"
+    "\\_layouts"
   ],
-  "SelectedNode": "\\_layouts\\posts.html",
+  "SelectedNode": "\\_data\\contributors.yml",
   "PreviewInSolutionExplorer": false
 }

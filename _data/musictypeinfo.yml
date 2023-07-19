@@ -1,0 +1,11 @@
+single:
+    link: "https://en.wikipedia.org/wiki/Single_(music)"
+
+EP:
+    link: "https://en.wikipedia.org/wiki/Extended_play"
+
+album:
+    link: "https://en.wikipedia.org/wiki/Album"
+
+LP:
+    link: "https://en.wikipedia.org/wiki/LP_record"

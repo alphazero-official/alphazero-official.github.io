@@ -37,7 +37,7 @@ textarea {
 
 .search {
     text-align: center;
-    width: 69%;
+    width: 60%;
     float: left;
     position: relative;
     align-content:center;
@@ -126,6 +126,13 @@ ul {
   }
 }
 
+.release-list {
+    .release {
+        border: 10px;
+        margin: auto;
+        display:normal;
+    }
+}
 
 
 /**
