@@ -3,4 +3,4 @@ layout: music
 title: Music
 permalink: /music/
 ---
-alpha.zero releases, past and present:
+Musical releases under the alpha.zero name:

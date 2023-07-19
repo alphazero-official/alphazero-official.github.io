@@ -7,7 +7,10 @@ title: About 1oolm
 
 > Hey buddy, I'm 1oolm. I learn and do things, whether it be code, design, game development, or whatever I decide to pick up, like this website! <br> As of writing this, it's just me and tons of tutorials for things I've had no experience with. Hopefully it's good enough. <br> Enjoy! :]
 
-<font size="10">TBA!!!</font> ![kije](/assets/image/kijetesantakalu.png)
+<br>
+I'd write about my history on the web since 2019 and all that, but...
+
+<font size="10">TBA!!! xd</font> ![kije](/assets/image/kijetesantakalu.png)
 
 #### Contributions include:  
 - alpha.zero

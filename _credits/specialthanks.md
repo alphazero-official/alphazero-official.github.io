@@ -3,9 +3,8 @@ layout: page
 title: Special Thanks
 permalink: /specialthanks/
 ---
-People that I want to thank personally  
+People that I (1oolm) want to thank personally
+<br><br><br>
+<font size="8">ALL OF YOU</font>
 <br>
-<br>
-TheManiac, ExcerptingData, caverace, xsniperx, Rojking, sashak9, Tris, Artem4ikBaik, Rgpro, [RiversthePerson](/assets/image/fang.png), Seconds, Lisij_Malchik, bosher, nickohh, Ryakoto, optical telescopes., 60mmm, PlanetCoffee...
-<br>
-<br>and more. Everyone, really.
+...Like, really.
