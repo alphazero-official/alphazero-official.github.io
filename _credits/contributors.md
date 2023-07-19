@@ -21,8 +21,8 @@ AddisonJudah, Artem4ikBaik, badass person 500, Dgiorn, Instatex, InvadedPurple, 
 <br>
 
 - <a href="{{ mas.link }}" title="{{ mas.name }}"><font color="{{ mas.color }}">{{ mas.name }}</font></a>: {{ mas.credit }} <br>
-- nickohh: Discord server setup help
 - Artem4ikBaik: Standard Notation formatting code for Roblox WHG + exceptional bugtesting &#x1F3C5;
 <br>
+- nickohh: Discord server setup help
 - MasterCatGodsWhyIms: Original idea for WHG Project
 

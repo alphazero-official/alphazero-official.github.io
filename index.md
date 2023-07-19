@@ -47,4 +47,3 @@ typeWriter();
 </font></p>
 <br>
 <p align="center"><font color="#BBBBBB" size="4">We're still under development. Be patient!</font></p>
-<p align="center"><font color="#AAAAAA" size="3">(Everything is subject to change)</font></p>
