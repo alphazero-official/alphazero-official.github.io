@@ -6,8 +6,11 @@
     "\\assets\\music",
     "\\assets\\music\\1kije3",
     "\\_about",
+    "\\_credits",
+    "\\_data",
+    "\\_includes",
     "\\_layouts"
   ],
-  "SelectedNode": "\\Gemfile",
+  "SelectedNode": "\\favicon-16x16.png",
   "PreviewInSolutionExplorer": false
 }
