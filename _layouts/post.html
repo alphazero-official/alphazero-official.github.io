@@ -14,7 +14,7 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
         • <span></span>
         {%- for category in page.categories -%}
-          <span><a href="/categories/#{{ category }}"><font color="#999999"><u>{{ category }}</u></font></a> </span>
+          <span><a href="/categories/#{{ category }}"><font color="#999999"><u>{{ category }}</u></font></a>{%- unless forloop.last -%},&nbsp;{%- endunless -%}</span>
         {%- endfor -%}
 
         {%- endif -%}

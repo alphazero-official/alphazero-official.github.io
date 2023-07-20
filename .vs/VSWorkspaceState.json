@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
     "\\assets\\image",
     "\\assets\\music",
     "\\assets\\music\\1kije3",
@@ -9,8 +8,9 @@
     "\\_credits",
     "\\_data",
     "\\_includes",
-    "\\_layouts"
+    "\\_layouts",
+    "\\_posts"
   ],
-  "SelectedNode": "\\favicon-16x16.png",
+  "SelectedNode": "\\_layouts\\post.html",
   "PreviewInSolutionExplorer": false
 }
