@@ -1,9 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets\\image",
-    "\\assets\\music",
-    "\\assets\\music\\1kije3",
     "\\_about",
     "\\_credits",
     "\\_data",
@@ -11,6 +8,6 @@
     "\\_layouts",
     "\\_posts"
   ],
-  "SelectedNode": "\\_layouts\\post.html",
+  "SelectedNode": "\\_about\\pugcut.md",
   "PreviewInSolutionExplorer": false
 }

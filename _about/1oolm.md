@@ -13,5 +13,6 @@ I'd write about my history on the web since 2019 and all that, but...
 <font size="10">TBA!!! xd</font> ![kije](/assets/image/kijetesantakalu.png)
 
 #### Contributions include:  
+<div id="line"><hr /></div><br>
 - alpha.zero
 - Most of the programming, design, ideas, and overall lead

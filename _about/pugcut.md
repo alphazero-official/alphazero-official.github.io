@@ -11,4 +11,5 @@ An associate since 2019, Pug is responsible for lots of turning points in 1oolm'
 <img src="/assets/image/bubsy-shatter.gif" width=200>
 
 #### Contributions include:  
+<div id="line"><hr /></div><br>
 - IDK
