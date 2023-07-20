@@ -3,7 +3,7 @@ layout: page
 title: Team
 permalink: /team/
 ---
-<font color="#CCCCCC" size="5"> <a href="/contributors/">Contributors</a> / <a href="/acknowledgements/">Acknowledgements</a> / <a href="/specialthanks/">Special Thanks</a></font>
+<font color="#CCCCCC" size="5"> <a href="/contributors/">Contributors</a> / <a href="/acknowledgements/">Acknowledgements</a></font>
 <br>
   <div id="line"><hr /></div>
 <br>
