@@ -11,4 +11,4 @@ His involvement currently doesn't go much further than *Masernerd Mode*, an insi
 <br>
 #### Contributions include:  
 <div id="line"><hr /></div><br>
-- Masernerd mode work [TBA]
+- [TBA]
