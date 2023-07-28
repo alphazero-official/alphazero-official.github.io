@@ -19,15 +19,17 @@ layout: default
         <div id="#{{ category_name | slugize }}"></div>
         <h2 class="category-head">{{ category_name }} ({{ site.categories[category_name].size }})</h2>
         <a name="{{ category_name | slugize }}"></a>
-        {% for post in site.categories[category_name] %}
-        {%- unless post.unlisted -%}
-        <article class="archive-item">
-            <h4>
-                <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
-            </h4>
-        </article>
-        {%- endunless -%}
-        {% endfor %}
+        <ul>
+            {% for post in site.categories[category_name] %}
+            {%- unless post.unlisted -%}
+            <article class="archive-item">
+                <h4>
+                    <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a> || <font color="#AAAAAA">{{ post.date | date_to_string }}</font></li>{%- if forloop.last -%}<br>{%- endif -%}
+                </h4>
+            </article>
+            {%- endunless -%}
+            {% endfor %}
+        </ul>
     </div>
     <div id="line-s"><hr /></div>
     <br>
