@@ -3,10 +3,11 @@ layout: page
 title: About Clickerty
 ---
 
-Some fuck who uuhhhhh wait shit theres a rat in this room i need to    
+**Clickerty** (pronounced */klikerti/*) is the lead writer and designer for alpha.zero.
+And also, like, assistance in other fields, but these ones are ones that i am often in charge for. Mostly writing.
 
 #### Contributions include:  
 <div id="line"><hr /></div><br>
-- existing
-- lore i guess idk they named a ton of characters
-- wait fuck no the rat is biting through the computer its DESTROYING EVERYTHING FUCK NO NONONONONONONONNO
+- Writing pretty much the entirety of the lore, i guess
+- I'd share stuff, but pretty much nothing is public besides like one character. Sorry
+- TBA
