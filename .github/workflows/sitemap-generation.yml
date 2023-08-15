@@ -1,6 +1,7 @@
 name: Generate xml sitemap 
 
-on:
+on: 
+  workflow-dispatch:
   push:
     branches: [ staging ]
     paths: [ '**.html', '**.pdf' ]
