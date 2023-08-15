@@ -59,7 +59,7 @@ jobs:
           the [generate-sitemap](https://github.com/cicirello/generate-sitemap) 
           GitHub action.  
         commit-message: "Automated sitemap update"
-        author: alphazero-official
-        committer: alphazero-official
+        author: alpha.zero <dotzeroalpha@gmail.com>
+        committer: alpha.zero <dotzeroalpha@gmail.com>
         branch: create-pull-request/sitemap
         delete-branch: true
