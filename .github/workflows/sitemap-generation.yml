@@ -1,4 +1,4 @@
-name: Generate xml sitemap 
+name: Generate sitemap
 
 on: 
   workflow_dispatch:
@@ -21,8 +21,12 @@ on:
         type: environment
         required: true
   push:
-    branches: [ gh-pages ]
+    branches: 
+      - gh-pages
     paths: [ '**.html', '**.pdf' ]
+  pull_request:
+    branches: 
+      - gh-pages
 
 jobs:
   sitemap_job:
