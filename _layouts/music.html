@@ -11,13 +11,13 @@ layout: default
     {{ content }}
     <br>
     <div class="release-list">
-        {%- for release in site.data.music -%}
+        {%- for release in site.data.music -%}{% unless release.draft %}
         {% assign releasetype = release.type %}
         <div class="release" style="background-color: black; color: white; padding: 20px; border: double; border-color: white; height: 100%; width: 90%; object-fit: contain; ">
             <img src={{ release.cover }} style="float: left; margin-right: 5%; background-size:contain; margin-bottom: 1em; max-block-size:100%; max-height:100%; width:14%; margin-right=5%; margin-bottom:5%; object-fit:contain;"></img>
-            <h2><a href={{ release.link }}>{{ release.title }}</a> ({{ release.year }})</h2>
-            <h4><a href={{ site.data.musictypeinfo[releasetype].link }}>{{ release.type }}</a> by {{ release.artist }} | {{ release.genres }} | {{ release.length }} | {{ release.price }}</h4>
-        </div>
+            <h2><a href={{ release.link }} target="_blank">{{ release.title }}</a> ({{ release.year }})</h2>
+            <h4><a href={{ site.data.musictypeinfo[releasetype].link }} target="_blank">{{ release.type }}</a> by {{ release.artist }} | {{ release.genres }} | {{ release.length }} | {{ release.price }}</h4>
+        </div>{% endunless %}
         {% unless forloop.last %}<br>{% endunless %}
         {%- endfor -%}
     </div>

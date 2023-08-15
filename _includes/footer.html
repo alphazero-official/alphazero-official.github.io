@@ -6,19 +6,10 @@
     <h2 class="footer-heading">&copy; {{ site.title | escape }} 2023</h2>
 
     <div class="footer-col-wrapper">
-        <div class="footer-col footer-col-1">
+        <div class="footer-col footer-col-1" style="width:100%">
             {%- include social.html -%}
+            {%- if site.email -%}<a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>{%- endif -%}
         </div>
-
-        <div class="footer-col footer-col-2">
-            <ul class="contact-list">
-                {%- if site.email -%}
-                <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-
-                {%- endif -%}
-            </ul>
-        </div>
-      
     </div>
 
   </div>

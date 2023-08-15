@@ -23,9 +23,40 @@ layout: default
     <br>
     <p align="center"><font size="4"><span id="message"> Sorry about that. </span></font></p>
     <script>
-        const messages = ["[HYPERLINK BLOCKED]", "Sorry about that...", "Better add that later!", "Call support", "Misinput?", "The cat has gone loose", "mb", "REALLY", "I'm sorry to interrupt you, Elizabeth, \n if you still even remember that name.", "screenshot this now", "Jumpscare", "wowowowowow what happened"]
+        const messages = ["[HYPERLINK BLOCKED]", "Sorry about that...", 
+        "Better add that later!", 
+        "Call support", 
+        "Misinput?", 
+        "The cat has gone loose", 
+        "mb", 
+        "REALLY", 
+        "I'm sorry to interrupt you, Elizabeth, \n if you still even remember that name.", 
+        "screenshot this now", 
+        "Jumpscare", 
+        "wowowowowow what happened", 
+        "What's so funny about HALSTIRE?", 
+        "god", 
+        "it's called 404 because i'm very passionate about four. oh four...", 
+        ">~<", 
+        "Another win for us.", 
+        "this could be a 0.1% chance message, and you would know it. because the source code is there.", 
+        "&Kcy;&Acy;&Kcy;&#32;&Tcy;&Acy;&Kcy;",
+        "Hi, I'm Nella Falkoyre. Did you know you have rights?",
+        "Holy hell.",
+        "Google En Passant.",
+        "Our e-mail is soooo up for the task.",
+        "I fucking love air conditioning.",
+        "I love refrigerators.",
+        "Homestuck? Yeah, to the ground.",
+        "lalalalalalala",
+        "Crazy?",
+        "[EXTREMELY LOUD INCORRECT BUZZER]",
+        "love this aminals.                      the                            ."
+        ]
+
         const rand = Math.floor(Math.random() * messages.length)
 
+        console.log(rand+1);
         document.getElementById("message").textContent = messages[rand]
     </script>
 </div>

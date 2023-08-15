@@ -1,13 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_about",
-    "\\_credits",
-    "\\_data",
     "\\_includes",
-    "\\_layouts",
     "\\_posts"
   ],
-  "SelectedNode": "\\_about\\masernerd.md",
+  "SelectedNode": "\\index.md",
   "PreviewInSolutionExplorer": false
 }
