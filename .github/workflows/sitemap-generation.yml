@@ -21,7 +21,7 @@ on:
         type: environment
         required: true
   push:
-    branches: [ staging ]
+    branches: [ gh-pages ]
     paths: [ '**.html', '**.pdf' ]
 
 jobs:
@@ -49,17 +49,4 @@ jobs:
         echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
         echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
         echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
-
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v5.0.2
-      with:
-        title: "Automated sitemap update"
-        body: > 
-          Automated changes. Sitemap updated by 
-          the [generate-sitemap](https://github.com/cicirello/generate-sitemap) 
-          GitHub action.  
-        commit-message: "Automated sitemap update"
-        author: alpha.zero <dotzeroalpha@gmail.com>
-        committer: alpha.zero <dotzeroalpha@gmail.com>
-        branch: create-pull-request/sitemap
-        delete-branch: true
+        echo "${{ steps.sitemap.outputs }}"
