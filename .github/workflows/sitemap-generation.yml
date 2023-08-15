@@ -42,6 +42,14 @@ jobs:
         base-url-path: https://alphazero-official.github.io/
         include-pdf: false
     
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        title: "Automated sitemap update"
+        body: > 
+          Automated pull-request; sitemap updated by the [generate-sitemap](https://github.com/cicirello/generate-sitemap) 
+          GitHub action. 
+
     - name: Output stats
       run: |
         echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
