@@ -44,7 +44,7 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://alphazero-official.github.io/
-        path-to-root: .
+        path-to-root: assets
         sitemap-format: xml
         include-pdf: false
 
