@@ -1,4 +1,5 @@
 User-agent: *
 Allow: *
+Disallow: /categories/
 
 Sitemap: https://alphazero-official.github.io/sitemap.xml
