@@ -1,3 +1,23 @@
+- title: "Devastation"
+  artist: "1oolm & Stretched Across Infinity"
+  cover: "/assets/music/devastation/cover.jpg"
+  link: "https://1oolm.bandcamp.com/track/devastation"
+  length: "2:4r"
+  genres: "hardcore, frenchcore"
+  year: 2023
+  type: single
+  price: "free release"
+  
+- title: "tomorrowcave"
+  artist: "1oolm"
+  cover: "/assets/music/tomorrowcave/cover.jpg"
+  link: "https://1oolm.bandcamp.com/track/tomorrowcave"
+  length: "2:34"
+  genres: "downtempo"
+  year: 2023
+  type: single
+  price: "free release"
+
 - title: "Constraint"
   artist: "1oolm & Stretched Across Infinity"
   cover: "/assets/music/constraint/cover.jpg"
@@ -8,7 +28,7 @@
   type: single
   price: "free release"
 
-- title: "1_KIJE^3"
+- title: "1KIJE^3"
   artist: "1oolm"
   cover: "/assets/music/1kije3/cover.jpg"
   link: "https://1oolm.bandcamp.com/track/1-kije-3"
