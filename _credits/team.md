@@ -25,7 +25,7 @@ permalink: /team/
 <br>
 ## <font style="color: #b23b82; background-image: -webkit-linear-gradient(0deg, #703f95 5%, #49006a 92%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;">Discord Staff:</font>
 ### <font style="color: #49006a; text-shadow: -1px -1px 0 #100, 1px -1px 0 #100, -1px 1px 0 #100, 1px 1px 0 #100;">Administrators:</font>
-[AddisonJudah](https://www.youtube.com/watch?v=8fuXjQLpb94), Clickerty, merkur, TheManiac
+<font color="#888888">AddisonJudah</font>, Clickerty, merkur, TheManiac
 ### <font style="color: #703f95; text-shadow: -1px -1px 0 #100, 1px -1px 0 #100, -1px 1px 0 #100, 1px 1px 0 #100;">Moderators:</font>
 Dgiorn, Instatex, <font color="#888888">Nicole</font>, owaloid, Pseudonym, Pugcut, sashak9
 <br>
