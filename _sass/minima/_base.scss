@@ -233,9 +233,19 @@ hr {
     height: 1px;
 }
 
+video {
+    object-fit: width;
+}
+
 #line {
     float: left;
     width: 60%;
+    height: 10px;
+}
+
+#line-x {
+    float: center;
+    width: 105%;
     height: 10px;
 }
 
@@ -244,6 +254,27 @@ hr {
     width: 40%;
     height: 10px;
 }
+
+#release-list {
+    float: center;
+    width: 95%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+#release {
+    float: center;
+    width: 90%;
+    height: 95px;
+    object-fit: content;
+}
+
+#cover {
+    width: 90%;
+    height: 90%;
+    align-items: center;
+}
+
 
 /**
  * Tables

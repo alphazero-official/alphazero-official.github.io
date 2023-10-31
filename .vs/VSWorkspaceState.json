@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\_about",
+    "\\_credits",
     "\\_data",
     "\\_includes",
+    "\\_layouts",
     "\\_posts"
   ],
-  "SelectedNode": "\\_data\\music.yml",
+  "SelectedNode": "\\_layouts\\music.html",
   "PreviewInSolutionExplorer": false
 }

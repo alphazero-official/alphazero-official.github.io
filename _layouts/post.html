@@ -11,16 +11,22 @@ layout: default
             {{ page.date | date: date_format }}
         </time>
         {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-        • <span></span>
-        {%- for category in page.categories -%}
-          <span><a href="/categories/#{{ category }}"><font color="#999999"><u>{{ category }}</u></font></a>{%- unless forloop.last -%},&nbsp;{%- endunless -%}</span>
-        {%- endfor -%}
-
+            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
         {%- endif -%}
+        {%- if page.categories -%}          
+            <span></span> • <span></span>        
+            {%- for category in page.categories -%}
+                <span><a href="/categories/#{{ category }}"><font color="#999999"><u>{{ category }}</u></font></a>{%- unless forloop.last -%},&nbsp;{%- endunless -%}</span>
+            {%- endfor -%}
+        {%- endif -%}
+        {%- if page.unlisted -%}  
+            <span></span> • <span></span>  
+            <font color="#999999">Unlisted</font></span>   
+        {%- endif -%}
+        <span style="float: right">{{ content | number_of_words }} words</span>
     </p>
   </header>
-  <div id="line"><hr /></div>
+  <div id="line-x"><hr /></div>
     <br>
     <br>
   <div class="post-content e-content" itemprop="articleBody">
