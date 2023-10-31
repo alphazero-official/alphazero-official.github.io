@@ -13,7 +13,7 @@ layout: default
     <div class="release-list" id="release-list">
         {%- for release in site.data.music -%}{% unless release.draft %}
         {% assign releasetype = release.type %}
-        <div class="release" id="release" style="background-color: black; color: white; padding: 20px; border: double; border-color: white; size:contain; margin-bottom: 6px; ">
+        <div class="release" id="release" style="background-color: black; color: white; padding: 20px; border: double; border-color: white; margin-bottom: 6px; ">
             <span id="cover"><img src={{ release.cover }} style="float: left; margin-right: 5%; background-size:contain; margin-bottom: 2em; max-block-size:100%; max-height:100%; width:14%; margin-right=5%; margin-bottom:7%; object-fit:contain; border: double; border-color: gray;"></img></span>
             <h3><a href={{ release.link }} target="_blank">{{ release.title }}</a> ({{ release.year }})</h3>
             <h5><a href={{ site.data.musictypeinfo[releasetype].link }} target="_blank">{{ release.type }}</a> by {{ release.artist }} | {{ release.genres }} | {{ release.length }}</h5>
