@@ -1,0 +1,130 @@
+---
+layout: default
+---
+{%- assign id = page.id -%}
+{%- for rel in site.data.music -%}{%- if rel.id == id -%}{%- assign release = rel -%}{%- endif -%}{%- endfor -%}
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+<span id="coverwrap">
+<div id="coverview" style='background: url(./cover.jpg); height: 400px; width: 400px; border: double; border-color: white; background-size: contain; background-repeat: no-repeat; background-position: center; margin: auto;'></div>
+</span>
+
+
+<div style='margin: auto; background-position: center; text-align: center;'><font size="26">{{ release.title | upcase }}</font></div>
+
+<div style='margin: auto; background-position: center; text-align: center;' id="artistsinfo">
+<font style="color: #b23b82; background-image: -webkit-linear-gradient(90deg, #dddddd 52%, #ffffff 92%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;" size="4">{{ release.artist | upcase }}</font>
+</div>
+<br>
+<div style='margin: auto; background-position: center; text-align: center;' id="releaseinfo">
+<img src="/assets/image/{{ release.genres }}.png" width="30"></img><span style='margin: auto; background-position: left; text-align: left;'><font size="3"> {{ release.genres | upcase }}</font></span>
+    //
+<img src="/assets/image/length.png" width="30"></img><span style='margin: auto; background-position: left; text-align: left;'><font size="3"> {{ release.length | upcase }}</font></span>
+    //
+<img src="/assets/image/date.png" width="30"></img><span style='margin: auto; background-position: left; text-align: left;'><font size="3"> {{ release.date | upcase }}</font></span>
+</div>
+<br>
+<div style='margin: auto; background-position: center; text-align: center; font-size: 6' id="releaselinks">
+{%- if release.spotify -%}
+<a href={{ release.spotify }}><font color="#1ED759" size="3">Spotify</font></a> {%- if release.youtube -%} &nbsp;//&nbsp; {%- endif -%}
+{%- endif -%}
+{%- if release.youtube -%}
+<a href={{ release.youtube }}><font color="#DC0000" size="3">YouTube</font></a> {%- if release.itunes -%} &nbsp;//&nbsp; {%- endif -%}
+{%- endif -%}
+{%- if release.itunes -%}
+<a href={{ release.itunes }}><font color="#F94C56" size="3">Apple Music</font></a> {%- if release.tidal -%} &nbsp;//&nbsp; {%- endif -%}
+{%- endif -%}
+{%- if release.tidal -%}
+<a href={{ release.tidal }}><font color="#EEEEEE" size="3">Tidal</font></a> {%- if release.soundcloud -%} &nbsp;//&nbsp; {%- endif -%}
+{%- endif -%}
+{%- if release.soundcloud -%}
+<a href={{ release.soundcloud }}><font color="#FF7600" size="3">SoundCloud</font></a> {%- if release.bandcamp -%} &nbsp;//&nbsp; {%- endif -%}
+{%- endif -%}
+{%- if release.bandcamp -%}
+<a href={{ release.bandcamp }}><font color="#629AA8" size="3">Bandcamp</font></a>
+{%- endif -%}
+</div>
+<br>
+{{ content }}
+
+
+<script>
+//xoxo stackoverflow
+$(document).ready(function () {
+    var $one = $('#coverview'),
+        mousemoveEventTimeout = 50, // mousemove event every N miliseconds
+        transitionSteps = 5, // number of steps between the old and new mouse positions
+        transitionStepDuration = Math.floor(mousemoveEventTimeout / transitionSteps),
+        browserPrefix = "",
+        cx = Math.ceil(window.innerWidth / 2.0),
+        cy = Math.ceil(window.innerHeight / 2.0),
+        oldMousePositionX = cx,
+        oldMousePositionY = cy,
+        usrAg = navigator.userAgent;
+    if(usrAg.indexOf("Chrome") > -1 || usrAg.indexOf("Safari") > -1) {
+        browserPrefix = "-webkit-";
+    } else if (usrAg.indexOf("Opera") > -1) {
+        browserPrefix = "-o";
+    } else if (usrAg.indexOf("Firefox") > -1) {
+        browserPrefix = "-moz-";
+    } else if (usrAg.indexOf("MSIE") > -1) {
+        browserPrefix = "-ms-";
+    }
+    
+    function calculateChanges(dx, dy) {
+        var tiltx = (dy / cy),
+            tilty = - (dx / cx),
+            radius = Math.sqrt(Math.pow(tiltx, 2) + Math.pow(tilty, 2)),
+            degree = (radius * 15),
+            shadx = degree*tiltx,   /*horizontal shadow*/
+            shady = degree*tilty,   /*vertical shadow*/
+            changes = Object.create(null);
+        changes.degree = degree;
+        changes.tiltx = tiltx;
+        changes.tilty = tilty;
+        changes.shadx = shadx;
+        changes.shady = shady;
+        return changes;
+    }
+    
+    var wait = false;
+    $(document).mousemove(function (event) {
+        var newMousePositionX = event.pageX,
+            newMousePositionY = event.pageY;
+
+        if(!wait){
+            var distanceX = Math.round((oldMousePositionX - newMousePositionX) / transitionSteps),
+                distanceY = Math.round((oldMousePositionY - newMousePositionY) / transitionSteps),
+
+                dx = oldMousePositionX - cx - distanceX,
+                dy = oldMousePositionY - cy - distanceY,
+                i = 1;
+
+            var myVar = setInterval(function() {
+                if (i >= transitionSteps - 1) {
+                    clearInterval(myVar);
+                }
+                i++;
+                dx = dx - distanceX;
+                dy = dy - distanceY;
+                
+                var changes = calculateChanges(dx, dy);
+            
+
+                $one.css(browserPrefix + 'transform', 'rotate3d(' + changes.tiltx + ', ' + changes.tilty + ', 0, ' + changes.degree + 'deg)');
+        
+         
+
+                if(dx>cx) /*without that horizontal values are reversed*/
+                    $('#coverview').css('box-shadow', + (-changes.shady) + 'px ' + (-changes.shadx) +'px 5px #3D352A');
+                else $('#coverview').css('box-shadow', + changes.shady + 'px ' + (-changes.shadx) +'px 5px #3D352A');
+            }, transitionStepDuration);
+				
+            oldMousePositionX = newMousePositionX;
+            oldMousePositionY = newMousePositionY;
+            wait = true;
+            setTimeout(function(){ wait = false; }, mousemoveEventTimeout);
+        }
+    });
+});
+</script>

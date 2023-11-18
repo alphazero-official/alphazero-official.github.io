@@ -1,35 +1,60 @@
 - title: "Devastation"
   artist: "1oolm & Stretched Across Infinity"
-  cover: "/assets/music/devastation/cover.jpg"
-  link: "https://youtu.be/8IE-jvjW7V0"
+  id: 4
+  spotify: "https://open.spotify.com/track/0ZIp6ZjC0FKxR6fovwCqwA"
+  youtube: "https://youtu.be/8IE-jvjW7V0"
+  itunes: "https://music.apple.com/us/album/devastation/1712587182"
+  tidal: "https://tidal.com/album/322650214"
+  soundcloud: "https://soundcloud.com/1oolm/devastation"
+  bandcamp: "https://1oolm.bandcamp.com/track/devastation"
   length: "2:44"
-  genres: "hardcore, frenchcore"
+  genres: "hardcore"
+  icon: "/assets/image/hardcore.png"
   year: 2023
+  date: "28/09/2023"
   type: single
   
 - title: "tomorrowcave"
   artist: "1oolm"
-  cover: "/assets/music/tomorrowcave/cover.jpg"
-  link: "https://youtu.be/w5Tw8VMKXow"
+  id: 3
+  spotify: "https://open.spotify.com/track/2EfyHlQg2GPTqGGaPfUeRa"
+  youtube: "https://youtu.be/w5Tw8VMKXow"
+  itunes: "https://music.apple.com/us/album/tomorrowcave/1712394301"
+  tidal: "https://tidal.com/album/322350309"
+  soundcloud: "https://soundcloud.com/1oolm/tomorrowcave"
+  bandcamp: "https://1oolm.bandcamp.com/track/tomorrowcave"
   length: "2:34"
   genres: "downtempo"
   year: 2023
+  date: "21/09/2023"
   type: single
 
 - title: "Constraint"
   artist: "1oolm & Stretched Across Infinity"
-  cover: "/assets/music/constraint/cover.jpg"
-  link: "https://youtu.be/osdFRu9B39w"
+  id: 2
+  spotify: "https://open.spotify.com/track/380BQhBts7YjTreT1pXfbD"
+  youtube: "https://youtu.be/osdFRu9B39w"
+  itunes: "https://music.apple.com/us/album/constraint/1712394115"
+  tidal: "https://tidal.com/album/322350305"
+  soundcloud: "https://soundcloud.com/1oolm/constraint"
+  bandcamp: "https://1oolm.bandcamp.com/track/constraint"
   length: "2:56"
-  genres: "hardcore, industrial"
+  genres: "hardcore"
   year: 2023
+  date: "15/08/2023"
   type: single
 
 - title: "1KIJE^3"
   artist: "1oolm"
-  cover: "/assets/music/1kije3/cover.jpg"
-  link: "https://youtu.be/6Le5YIMsTwE"
+  id: 1
+  spotify: "https://open.spotify.com/track/4Fj2NXuEpTZoCKGuCPRwMo"
+  youtube: "https://youtu.be/6Le5YIMsTwE"
+  itunes: "https://music.apple.com/us/album/1kije-3/1712394268"
+  tidal: "https://tidal.com/album/322350307"
+  soundcloud: "https://soundcloud.com/1oolm/1kije3"
+  bandcamp: "https://1oolm.bandcamp.com/track/1kije-3"
   length: "3:48"
-  genres: "lo-fi, bass"
+  genres: "lo-fi"
   year: 2023
+  date: "20/07/2023"
   type: single
