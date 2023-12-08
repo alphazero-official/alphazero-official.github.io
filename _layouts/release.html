@@ -10,7 +10,7 @@ layout: default
 </span>
 
 
-<div style='margin: auto; background-position: center; text-align: center;'><font size="26">{{ release.title | upcase }}</font></div>
+<div style='margin: auto; background-position: center; text-align: center;'><font size="6">{{ release.title | upcase }}</font></div>
 
 <div style='margin: auto; background-position: center; text-align: center;' id="artistsinfo">
 <font style="color: #b23b82; background-image: -webkit-linear-gradient(90deg, #dddddd 52%, #ffffff 92%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;" size="4">{{ release.artist | upcase }}</font>
@@ -26,22 +26,22 @@ layout: default
 <br>
 <div style='margin: auto; background-position: center; text-align: center; max-width: 96%' id="releaselinks">
 {%- if release.spotify -%}
-<a href={{ release.spotify }}><font color="#1ED759" size="2">Spotify</font></a> {%- if release.youtube -%} &nbsp;//&nbsp; {%- endif -%}
+<a href={{ release.spotify }}><font color="#1ED759" size="2">Spotify</font></a> {%- if release.youtube -%}{%- endif -%}
 {%- endif -%}
 {%- if release.youtube -%}
-<a href={{ release.youtube }}><font color="#DC0000" size="2">YouTube</font></a> {%- if release.itunes -%} &nbsp;//&nbsp; {%- endif -%}
+&nbsp;//&nbsp;<a href={{ release.youtube }}><font color="#DC0000" size="2">YouTube</font></a> {%- if release.itunes -%}{%- endif -%}
 {%- endif -%}
 {%- if release.itunes -%}
-<a href={{ release.itunes }}><font color="#F94C56" size="2">Apple Music</font></a> {%- if release.tidal -%} &nbsp;//&nbsp; {%- endif -%}
+&nbsp;//&nbsp;<a href={{ release.itunes }}><font color="#F94C56" size="2">Apple Music</font></a> {%- if release.tidal -%}{%- endif -%}
 {%- endif -%}
 {%- if release.tidal -%}
-<a href={{ release.tidal }}><font color="#EEEEEE" size="2">TIDAL</font></a> {%- if release.soundcloud -%} &nbsp;//&nbsp; {%- endif -%}
+&nbsp;//&nbsp;<a href={{ release.tidal }}><font color="#EEEEEE" size="2">TIDAL</font></a> {%- if release.soundcloud -%}{%- endif -%}
 {%- endif -%}
 {%- if release.soundcloud -%}
-<a href={{ release.soundcloud }}><font color="#FF7600" size="2">SoundCloud</font></a> {%- if release.bandcamp -%} &nbsp;//&nbsp; {%- endif -%}
+&nbsp;//&nbsp;<a href={{ release.soundcloud }}><font color="#FF7600" size="2">SoundCloud</font></a> {%- if release.bandcamp -%}{%- endif -%}
 {%- endif -%}
 {%- if release.bandcamp -%}
-<a href={{ release.bandcamp }}><font color="#629AA8" size="2">Bandcamp</font></a>
+&nbsp;//&nbsp;<a href={{ release.bandcamp }}><font color="#629AA8" size="2">Bandcamp</font></a>
 {%- endif -%}
 </div>
 <br>

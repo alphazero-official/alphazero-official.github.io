@@ -1,3 +1,17 @@
+- title: "Constraint (High Mass Remix)"
+  artist: "1oolm & Stretched Across Infinity"
+  id: 5
+  spotify: "https://open.spotify.com/track/1dbaYlwPxvBJsiSTT660cx"
+  youtube: "https://youtu.be/D7N6i-6yJJY"
+  tidal: "https://tidal.com/album/332826666"
+  soundcloud: "https://soundcloud.com/1oolm/constraint-hmr"
+  bandcamp: "https://1oolm.bandcamp.com/track/constraint-high-mass-remix"
+  length: "2:30"
+  genres: "hardcore"
+  year: 2023
+  date: "08/12/2023"
+  type: single
+
 - title: "Devastation"
   artist: "1oolm & Stretched Across Infinity"
   id: 4
@@ -9,7 +23,6 @@
   bandcamp: "https://1oolm.bandcamp.com/track/devastation"
   length: "2:44"
   genres: "hardcore"
-  icon: "/assets/image/hardcore.png"
   year: 2023
   date: "28/09/2023"
   type: single
