@@ -3,7 +3,7 @@ layout: page
 title: About Masernerd
 ---
 
-**Masernerd** (a.k.a. Masternerd, Mazerderd or Mas) is a contributor for alpha.zero.   
+**Masernerd** (a.k.a. Mallory) is a contributor for alpha.zero.   
 
 [TBA]
 
