@@ -1,13 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
-    "\\music",
-    "\\music\\3",
-    "\\music\\4",
-    "\\music\\5",
-    "\\_data",
-    "\\_layouts"
+    "\\_includes",
+    "\\_layouts",
+    "\\_posts"
   ],
   "SelectedNode": "\\_layouts\\categories.html",
   "PreviewInSolutionExplorer": false
