@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_includes",
-    "\\_layouts",
-    "\\_posts"
+    "\\music",
+    "\\music\\4",
+    "\\music\\5",
+    "\\music\\6"
   ],
-  "SelectedNode": "\\_layouts\\categories.html",
+  "SelectedNode": "\\music\\6\\page.html",
   "PreviewInSolutionExplorer": false
 }
