@@ -41,7 +41,7 @@ audio {
 <img src="/assets/image/date.png" width="30"></img><span style='margin: auto; background-position: left; text-align: left;'><font size="3"> {{ release.date | upcase }}</font></span>
 </div>
 <br>
-<div style='margin: auto; background-position: center; text-align: center; max-width: 96%' id="releaselinks">
+<div style='margin: auto; background-position: center; text-align: center; max-width: 96%;' id="releaselinks">
 {%- if release.spotify -%}
 <a href={{ release.spotify }}><font color="#1ED759" size="2">Spotify</font></a> {%- if release.youtube -%}{%- endif -%}
 {%- endif -%}
