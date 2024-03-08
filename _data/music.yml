@@ -1,11 +1,30 @@
+- title: "UNDEFINABLE"
+  artist: "1oolm & Stretched Across Infinity"
+  id: 7
+  spotify: "https://open.spotify.com/track/74NiWwuoHdGC0wtPNMTVOq"
+  youtube: "https://youtu.be/LPSdp5tYVb0"
+  tidal: "https://tidal.com/album/349097023"
+  soundcloud: "https://soundcloud.com/1oolm/undefinable"
+  bandcamp: "https://1oolm.bandcamp.com/track/undefinable"
+  fileflac: "/music/7/UND.flac"
+  filemp3: "/music/7/UND.mp3"
+  length: "4:20"
+  genres: "hardcore"
+  year: 2024
+  date: "08/03/2024"
+  type: single
+
 - title: "Eyewaltz"
   artist: "1oolm"
   id: 6
   spotify: "https://open.spotify.com/track/40MTB41IAQpcAk891aWcjK"
   youtube: "https://youtu.be/dvXwt7GZegQ"
+  itunes: "https://music.apple.com/us/album/eyewaltz/1726694181"
   tidal: "https://tidal.com/album/341015835"
   soundcloud: "https://soundcloud.com/1oolm/eyewaltz"
   bandcamp: "https://1oolm.bandcamp.com/track/eyewaltz"
+  fileflac: "/music/6/EYE.flac"
+  filemp3: "/music/6/EYE.mp3"
   length: "2:45"
   genres: "hardcore"
   year: 2024
@@ -21,6 +40,10 @@
   tidal: "https://tidal.com/album/332826666"
   soundcloud: "https://soundcloud.com/1oolm/constraint-hmr"
   bandcamp: "https://1oolm.bandcamp.com/track/constraint-high-mass-remix"
+  fileflac: "/music/5/CNS_HMR.flac"
+  filemp3: "/music/5/CNS_HMR.mp3"
+  filestems: "/music/5/CNS_HMR_STEMS.7z"
+  filestemstype: "FLP+WAV"
   length: "2:30"
   genres: "hardcore"
   year: 2023
@@ -36,6 +59,8 @@
   tidal: "https://tidal.com/album/322650214"
   soundcloud: "https://soundcloud.com/1oolm/devastation"
   bandcamp: "https://1oolm.bandcamp.com/track/devastation"
+  fileflac: "/music/4/DEV.flac"
+  filemp3: "/music/4/DEV.mp3"
   length: "2:44"
   genres: "hardcore"
   year: 2023
@@ -51,6 +76,8 @@
   tidal: "https://tidal.com/album/322350309"
   soundcloud: "https://soundcloud.com/1oolm/tomorrowcave"
   bandcamp: "https://1oolm.bandcamp.com/track/tomorrowcave"
+  fileflac: "/music/3/TMR.flac"
+  filemp3: "/music/3/TMR.mp3"
   length: "2:34"
   genres: "downtempo"
   year: 2023
@@ -66,6 +93,8 @@
   tidal: "https://tidal.com/album/322350305"
   soundcloud: "https://soundcloud.com/1oolm/constraint"
   bandcamp: "https://1oolm.bandcamp.com/track/constraint"
+  fileflac: "/music/2/CNS.flac"
+  filemp3: "/music/2/CNS.mp3"
   length: "2:56"
   genres: "hardcore"
   year: 2023
@@ -81,6 +110,8 @@
   tidal: "https://tidal.com/album/322350307"
   soundcloud: "https://soundcloud.com/1oolm/1kije3"
   bandcamp: "https://1oolm.bandcamp.com/track/1kije-3"
+  fileflac: "/music/1/KIJ.flac"
+  filemp3: "/music/1/KIJ.mp3"
   length: "3:48"
   genres: "lo-fi"
   year: 2023

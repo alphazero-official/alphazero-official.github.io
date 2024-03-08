@@ -1,6 +1,18 @@
 ---
 layout: default
 ---
+<style>
+body {
+  backdrop-filter: blur(10px) brightness(2%);
+  background-image: url(/assets/image/cutiealert.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
 <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
 </header>
@@ -12,6 +24,7 @@ layout: default
 <div class="release-list" id="release-list">
     {%- for release in site.data.music -%}{% unless release.draft %}
     {% assign releasetype = release.type %}
+    {% assign releaseartist = release.artist %}
    <div class="release" id="release" style="background-color: black; color: white; padding: 20px; border: double; border-color: white; margin-bottom: 0; ">
         <span id="cover"><img src="/music/{{ release.id }}/cover.jpg" style="float: left; margin-right: 5%; background-size:contain; margin-bottom: 2em; max-block-size:100%; max-height:100%; width:14%; margin-right=5%; margin-bottom:7%; object-fit:contain; border: double; border-color: gray;"></img></span>
         <h3><a href="/music/{{ release.id }}/page.html" target="_blank">{{ release.title }}</a> ({{ release.year }})</h3>

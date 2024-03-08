@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Pugcut
+title: Pugcut
 ---
 
 **Pugcut** is a developer for alpha.zero. <br>

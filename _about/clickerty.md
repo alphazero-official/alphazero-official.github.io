@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Clickerty
+title: Clickerty
 ---
 
 **Clickerty** (pronounced */klikerti/*) is the lead writer and designer for alpha.zero.

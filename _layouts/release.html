@@ -3,6 +3,23 @@ layout: default
 ---
 {%- assign id = page.id -%}
 {%- for rel in site.data.music -%}{%- if rel.id == id -%}{%- assign release = rel -%}{%- endif -%}{%- endfor -%}
+<style>
+body {
+  backdrop-filter: blur(10px) brightness(14%);
+  background-image: url(./cover.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+audio {
+    filter: contrast(99%) invert(100%);
+    width: 50%;
+    height: 40px;
+}
+</style>
+
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 <span id="coverwrap">
@@ -45,12 +62,33 @@ layout: default
 {%- endif -%}
 </div>
 <br>
+<div style='margin: auto; background-position: center; text-align: center; max-width: 96%' id="downloadlinks">
+{%- if release.filemp3 -%}
+   <a href={{ release.filemp3 }}><font size="3">MP3 (320KBPS)</font></a>
+{%- endif -%}
+{%- if release.fileflac -%}
+&nbsp;//
+   <a href={{ release.fileflac }}><font size="3">FLAC (LOSSLESS)</font></a>
+{%- endif -%}{%- if release.filestems -%}
+&nbsp;//
+<a href={{ release.filestems }}><font size="3">STEMS ({{ release.filestemstype }})</font></a>
+{%- endif -%}
+</div>
+<br>
 {{ content }}
-
-
+<br>
+{%- if page.comments != false and site.disqus.shortname -%}
+  {%- include disqus.html -%}
+{%- endif -%}
 <script>
 //xoxo stackoverflow
 $(document).ready(function () {
+function isMobile() {
+return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+if (!isMobile()) {
+    
+    const clamp = (num, min, max) => Math.min(Math.max(num, min), max)
     var $one = $('#coverview'),
         mousemoveEventTimeout = 50, // mousemove event every N miliseconds
         transitionSteps = 5, // number of steps between the old and new mouse positions
@@ -126,5 +164,6 @@ $(document).ready(function () {
             setTimeout(function(){ wait = false; }, mousemoveEventTimeout);
         }
     });
+}
 });
 </script>

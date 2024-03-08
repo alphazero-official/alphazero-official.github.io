@@ -4,9 +4,14 @@
   link: /about/1oolm.html # Link to about page
 
 - name: Clickerty
-  credit: Writer & Designer
+  credit: Writer, Designer
   color: "#0F65AB"
   link: /about/clickerty.html
+
+- name: Masernerd
+  credit: Artist, Music Artist
+  color: "#910FAB"
+  link: /about/masernerd.html
 
 - name: Extremisea
   credit: Writing Assistance

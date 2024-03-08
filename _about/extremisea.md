@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Extremisea
+title: Extremisea
 ---
 
 **Extremisea** (a.k.a. Oceanic or Sea) is a developer for alpha.zero.
