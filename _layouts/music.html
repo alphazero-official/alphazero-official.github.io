@@ -27,8 +27,8 @@ body {
     {% assign releaseartist = release.artist %}
    <div class="release" id="release" style="background-color: black; color: white; padding: 20px; border: double; border-color: white; margin-bottom: 0; ">
         <span id="cover"><img src="/music/{{ release.id }}/cover.jpg" style="float: left; margin-right: 5%; background-size:contain; margin-bottom: 2em; max-block-size:100%; max-height:100%; width:14%; margin-right=5%; margin-bottom:7%; object-fit:contain; border: double; border-color: gray;"></img></span>
-        <h3><a href="/music/{{ release.id }}/page.html" target="_blank">{{ release.title }}</a> ({{ release.year }})</h3>
-        <h5><a href={{ site.data.musictypeinfo[releasetype].link }} target="_blank">{{ release.type }}</a> by {{ release.artist }} | {{ release.genres }} | {{ release.length }}</h5>
+        <h3><a href="/music/{{ release.id }}/page.html">{{ release.title }}</a> ({{ release.year }})</h3>
+        <h5><a href={{ site.data.musictypeinfo[releasetype].link }}>{{ release.type }}</a> by {{ release.artist }} | {{ release.genres }} | {{ release.length }}</h5>
    </div>{% endunless %}
    {% unless forloop.last %}<br>{% endunless %}
    {%- endfor -%}

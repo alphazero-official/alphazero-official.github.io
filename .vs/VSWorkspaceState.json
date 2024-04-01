@@ -2,9 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\music",
-    "\\_about",
-    "\\_data"
+    "\\music\\6",
+    "\\music\\8",
+    "\\music\\9",
+    "\\_credits",
+    "\\_data",
+    "\\_includes",
+    "\\_layouts",
+    "\\_posts"
   ],
-  "SelectedNode": "\\_about\\masernerd.md",
+  "SelectedNode": "\\music\\6\\cover.jpg",
   "PreviewInSolutionExplorer": false
 }
