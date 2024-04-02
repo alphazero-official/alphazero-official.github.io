@@ -1,8 +1,3 @@
-- name: AshepEli # Proper name
-  credit: Owner & Co-Owner # Staff position/contribution
-  color: "#5786FF" # Name colour
-  link: /about/ashepeli.html # Link to about page
-
 - name: 1oolm # Proper name
   credit: Lead Developer # Staff position/contribution
   color: "#4F0985" # Name colour
