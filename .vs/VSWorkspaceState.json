@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\music",
-    "\\music\\7",
-    "\\music\\8"
+    "\\assets\\image",
+    "\\_layouts",
+    "\\_posts",
+    "\\_sass"
   ],
-  "SelectedNode": "\\music\\7\\cover.jpg",
+  "SelectedNode": "\\_sass\\minima.scss",
   "PreviewInSolutionExplorer": false
 }
