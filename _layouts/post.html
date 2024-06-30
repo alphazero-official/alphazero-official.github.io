@@ -8,22 +8,25 @@ layout: default
     <p class="post-meta">
         <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            {{ page.date | date: date_format }}
+            <img src="/assets/image/date.png" width="20" />&nbsp;{{ page.date | date: date_format }}
         </time>
         {%- if page.author -%}
-            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        <br>
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name"><img src="/assets/image/user.png" width="20" />&nbsp;{{ page.author }}</span></span>
         {%- endif -%}
-        {%- if page.categories -%}          
-            <span></span> • <span></span>        
-            {%- for category in page.categories -%}
-                <span><a href="/categories/#{{ category }}"><font color="#999999"><u>{{ category }}</u></font></a>{%- unless forloop.last -%},&nbsp;{%- endunless -%}</span>
-            {%- endfor -%}
+        {%- if page.categories -%}
+        <br> <img src="/assets/image/folder.svg" width="20" />&nbsp;
+        {%- for category in page.categories -%}
+        <span><a href="/categories/#{{ category }}"><font color="#999999"><u>{{ category }}</u></font></a>{%- unless forloop.last -%},&nbsp;{%- endunless -%}</span>
+        {%- endfor -%}
         {%- endif -%}
-        {%- if page.unlisted -%}  
-            <span></span> • <span></span>  
-            <font color="#999999">Unlisted</font></span>   
+        {%- if page.unlisted -%}
+        <span></span> • <span></span>
+        <font color="#999999">Unlisted</font></span>
         {%- endif -%}
-        <span style="float: right">~{{ content | number_of_words }} words</span>
+        {%- assign word_count = content | strip_html | number_of_words -%}
+        {%- assign minute_count = word_count | divided_by: 300 | at_least: 1 -%}
+        <span class="word-count" style="float: right"><img src="/assets/image/length.png" width="20" />&nbsp;{{ word_count }} words (~{{ minute_count }} min.)</span>
     </p>
   </header>
   <div id="line-x"><hr /></div>

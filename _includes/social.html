@@ -1,15 +1,17 @@
 <ul class="social-media-list">
-    <!--<a href="https://patreon.com/user?u={{ site.patreon_user| cgi_escape | escape }}" target="_blank"><font color="#FF424D"><span class="username">patreon</span></font></a>
-    <br>-->
     |
-    <a href="https://discord.gg/{{ site.discord_link| cgi_escape | escape }}" target="_blank"><font color="#5865F1"><span class="username">discord</span></font></a>
+    <a href="https://discord.gg/{{ site.discord_link| cgi_escape | escape }}" target="_blank"><img src="/assets/image/social/discord.svg" width=30px /></a>
     <!--<br>-->
     //
-    <a href="https://www.github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank"><font color="#DDDDDC"><span class="username">github</span></font></a>
+    <a href="https://www.github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank"><img src="/assets/image/social/github.svg" width=30px /></a>
     <!--<br>-->
     //
-    <a href="https://www.youtube.com/@{{ site.youtube_username| cgi_escape | escape }}" target="_blank"><font color="#DC0000"><span class="username">youtube</span></font></a>
+    <a href="https://www.youtube.com/@{{ site.youtube_username| cgi_escape | escape }}" target="_blank"><img src="/assets/image/social/youtube.png" width=30px /></a>
     <!--<br>-->
+    //
+    <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
+        <img src="/assets/image/social/rss.png" width=25px />
+    </a>
     //
     <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
     |
