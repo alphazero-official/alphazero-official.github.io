@@ -22,7 +22,8 @@ audio {
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
-<span id="coverwrap">
+<span id="coverwrap" style="position:relative">
+<!--<span style="position:absolute; top:50%; right:100%; display: inline-block; float: right; vertical-align: middle;"><a href=""><input type="image" , src="/assets/image/arrow-right.png" , width="50" , height="50" style="outline: none; background-color: transparent; display: inline-block; float: right; vertical-align: middle;" /></a></span>-->
 <div id="coverview" style='background: url(./cover.jpg); height: 320px; width: 320px; border: double; border-color: white; background-size: contain; background-repeat: no-repeat; background-position: center; margin: auto;'></div>
 </span>
 
@@ -46,7 +47,7 @@ audio {
 <a href={{ release.spotify }}><font color="#1ED759" size="2">Spotify</font></a> {%- if release.youtube -%}{%- endif -%}
 {%- endif -%}
 {%- if release.youtube -%}
-&nbsp;//&nbsp;<a href={{ release.youtube }}><font color="#DC0000" size="2">YouTube</font></a> {%- if release.itunes -%}{%- endif -%}
+{%- if release.spotify -%}&nbsp;//&nbsp;{%- endif -%}<a href={{ release.youtube }}><font color="#DC0000" size="2">YouTube</font></a> {%- if release.itunes -%}{%- endif -%}
 {%- endif -%}
 {%- if release.itunes -%}
 &nbsp;//&nbsp;<a href={{ release.itunes }}><font color="#F94C56" size="2">Apple Music</font></a> {%- if release.tidal -%}{%- endif -%}
@@ -67,25 +68,39 @@ audio {
    <a href={{ release.filemp3 }}><font size="3">MP3 (320KBPS)</font></a>
 {%- endif -%}
 {%- if release.fileflac -%}
-&nbsp;//
+    &nbsp;//
    <a href={{ release.fileflac }}><font size="3">FLAC (LOSSLESS)</font></a>
 {%- endif -%}{%- if release.filestems -%}
-&nbsp;//
-<a href={{ release.filestems }}><font size="3">STEMS ({{ release.filestemstype }})</font></a>
+    &nbsp;//
+    <a href={{ release.filestems }}><font size="3">STEMS ({{ release.filestemstype }})</font></a>
+{%- endif -%}
+{%- if release.filegfx -%}
+    &nbsp;//
+    <a href={{ release.filegfx }}><font size="3">GFX ASSETS</font></a>
 {%- endif -%}
 </div>
 <br>
 {{ content }}
+{%- if release.license == "cc-by-nc" -%}
+<br><br>
+    <font size="2" color="#AAAAAA">This work is licensed under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC license</a>. Do what you want, credit the work and artist(s), and don't make money off of it.  If you want to monetize the usage of anything here or you have any further licensing inquiries, contact our email and we can figure something out.</font>
+{%- endif -%}
 <br>
 {%- if page.comments != false and site.disqus.shortname -%}
   {%- include disqus.html -%}
 {%- endif -%}
 <script>
 //xoxo stackoverflow
+function limit(num, min, max) {
+    const MIN = min ?? 1;
+    const MAX = max ?? 20;
+    const parsed = parseInt(num)
+    return Math.min(Math.max(parsed, MIN), MAX)
+}
 $(document).ready(function () {
 function isMobile() {
 return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-}
+    }
 if (!isMobile()) {
     
     const clamp = (num, min, max) => Math.min(Math.max(num, min), max)
@@ -132,7 +147,7 @@ if (!isMobile()) {
 
         if(!wait){
             var distanceX = Math.round((oldMousePositionX - newMousePositionX) / transitionSteps),
-                distanceY = Math.round((oldMousePositionY - newMousePositionY) / transitionSteps),
+                distanceY = Math.floor(Math.round((oldMousePositionY - newMousePositionY) / transitionSteps)),
 
                 dx = oldMousePositionX - cx - distanceX,
                 dy = oldMousePositionY - cy - distanceY,
@@ -143,8 +158,8 @@ if (!isMobile()) {
                     clearInterval(myVar);
                 }
                 i++;
-                dx = dx - distanceX;
-                dy = dy - distanceY;
+                dx = limit(dx - distanceX, -400, 400);
+                dy = limit(dy - distanceY, -400, 400);
                 
                 var changes = calculateChanges(dx, dy);
             
