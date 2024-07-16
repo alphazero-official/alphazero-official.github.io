@@ -1,36 +1,18 @@
-- title: "TIMELOOP (feat. Rax)"
-  artist: "1oolm"
-  id: 8
-  youtube: "https://youtu.be/c49KWSHXzZE"
-  soundcloud: "https://soundcloud.com/1oolm/timeloop"
-  fileflac: "/music/8/TIM.flac"
-  filemp3: "/music/8/TIM.mp3"
-  filegfx: "/music/8/TIM-GFX.zip"
-  length: "4:21"
-  genres: "hardcore"
-  year: 2024
-  date: "20/07/2024"
-  type: single
-  license: "cc-by-nc"
-
 - title: "UNDEFINABLE"
   artist: "1oolm & Stretched Across Infinity"
   id: 7
   spotify: "https://open.spotify.com/track/74NiWwuoHdGC0wtPNMTVOq"
   youtube: "https://youtu.be/LPSdp5tYVb0"
-  itunes: "https://music.apple.com/us/album/undefinable/1734417166"
   tidal: "https://tidal.com/album/349097023"
   soundcloud: "https://soundcloud.com/1oolm/undefinable"
   bandcamp: "https://1oolm.bandcamp.com/track/undefinable"
   fileflac: "/music/7/UND.flac"
   filemp3: "/music/7/UND.mp3"
-  filegfx: "/music/7/UND-GFX.zip"
   length: "4:20"
   genres: "hardcore"
   year: 2024
   date: "08/03/2024"
   type: single
-  license: "cc-by-nc"
 
 - title: "Eyewaltz"
   artist: "1oolm"
@@ -43,13 +25,11 @@
   bandcamp: "https://1oolm.bandcamp.com/track/eyewaltz"
   fileflac: "/music/6/EYE.flac"
   filemp3: "/music/6/EYE.mp3"
-  filegfx: "/music/6/EYE-GFX.zip"
   length: "2:45"
   genres: "hardcore"
   year: 2024
   date: "20/01/2024"
   type: single
-  license: "cc-by-nc"
 
 - title: "Constraint (High Mass Remix)"
   artist: "1oolm & Stretched Across Infinity"
@@ -64,13 +44,11 @@
   filemp3: "/music/5/CNS_HMR.mp3"
   filestems: "/music/5/CNS_HMR_STEMS.7z"
   filestemstype: "FLP+WAV"
-  filegfx: "/music/5/CNS_HMR-GFX.zip"
   length: "2:30"
   genres: "hardcore"
   year: 2023
   date: "08/12/2023"
   type: single
-  license: "cc-by-nc"
 
 - title: "Devastation"
   artist: "1oolm & Stretched Across Infinity"
@@ -83,13 +61,11 @@
   bandcamp: "https://1oolm.bandcamp.com/track/devastation"
   fileflac: "/music/4/DEV.flac"
   filemp3: "/music/4/DEV.mp3"
-  filegfx: "/music/4/DEV-GFX.zip"
   length: "2:44"
   genres: "hardcore"
   year: 2023
   date: "28/09/2023"
   type: single
-  license: "cc-by-nc"
   
 - title: "tomorrowcave"
   artist: "1oolm"
@@ -102,13 +78,11 @@
   bandcamp: "https://1oolm.bandcamp.com/track/tomorrowcave"
   fileflac: "/music/3/TMR.flac"
   filemp3: "/music/3/TMR.mp3"
-  filegfx: "/music/3/TMR-GFX.zip"
   length: "2:34"
   genres: "ambient"
   year: 2023
   date: "21/09/2023"
   type: single
-  license: "cc-by-nc"
 
 - title: "Constraint"
   artist: "1oolm & Stretched Across Infinity"
@@ -121,13 +95,11 @@
   bandcamp: "https://1oolm.bandcamp.com/track/constraint"
   fileflac: "/music/2/CNS.flac"
   filemp3: "/music/2/CNS.mp3"
-  filegfx: "/music/2/CNS-GFX.zip"
   length: "2:56"
   genres: "hardcore"
   year: 2023
   date: "15/08/2023"
   type: single
-  license: "cc-by-nc"
 
 - title: "1KIJE^3"
   artist: "1oolm"
@@ -140,10 +112,8 @@
   bandcamp: "https://1oolm.bandcamp.com/track/1kije-3"
   fileflac: "/music/1/KIJ.flac"
   filemp3: "/music/1/KIJ.mp3"
-  filegfx: "/music/1/KIJ-GFX.zip"
   length: "3:48"
   genres: "lo-fi"
   year: 2023
   date: "20/07/2023"
   type: single
-  license: "cc-by-nc"
