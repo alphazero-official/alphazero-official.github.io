@@ -18,6 +18,7 @@ plugins:
   - jekyll-feed
   - jekyll-target-blank
   - jekyll-seo-tag
+  - jemoji
 
 collections:
   about:
