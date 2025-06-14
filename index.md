@@ -5,7 +5,7 @@ layout: home
 <br>
 <p align="center"><font size="5"><span id="message"> i messed up </span></font></p>
 <script>
-const messages = ["Welcome.", "Greetings.", "Hey", "aloha zero", "oopsie", "Good grief", "alpha.zero", "ohohohoho", "//////////", "/\\/\\/\\", "mmmmmmmmmmmmmmmmmmmmmmmmmmm", "Falkoyre was here", "w", "                                                   sorry", "Today was fun !", "never beta", "11111.0000"]
+const messages = ["Welcome.", "Greetings.", "Hey", "aloha zero", "oopsie", "Good grief", "alpha.zero", "ohohohoho", "//////////", "/\\/\\/\\", "mmmmmmmmmmmmmmmmmmmmmmmmmmm", "Falkoyre was here", "w", "                                                   sorry", "Today was fun !", "never beta", "11111.0000", "Live alpha.zero Reaction"]
 const rand = Math.floor(Math.random() * messages.length)
 var time = new Date().getHours();
 if (time>=6 && time<12)
