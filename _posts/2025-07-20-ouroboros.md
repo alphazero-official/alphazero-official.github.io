@@ -18,6 +18,5 @@ See you on November 15th.</i></blockquote>
 Updates: 
 - Seasonal: new homepage for OUROBOROS promo.
 - Visual updates to the site header, footer and page title cards. (animated line backgrounds, caps titles)
-- <font color="#000000">CARE_PACKAGE.AZP</font>
 <br><br>
 <img src="/assets/image/AZ2022.png" style="float: right" width="100"/>
