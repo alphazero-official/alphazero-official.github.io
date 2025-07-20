@@ -4,9 +4,32 @@ layout: default
 
 <div class="posts">
     {{ content }}
+<style>
+@keyframes move-it {
+  0% {
+    background-position: initial;
+  }
+  100% {
+    background-position: 100px 0px;
+  }
+}
 
+post-list-heading {  
+  background: repeating-linear-gradient(
+  45deg,
+  #0f0f0f,
+  #0f0f0f 5%,
+  #000000 5%,
+  #000000 10%
+);
+  background-size: 100px 100px;
+  animation: move-it 10s linear infinite;
+}
+</style>
     {%- if site.posts.size > 0 -%}
-    <h1 class="post-list-heading">{{ page.list_title | default: "Posts" }} (<u><a href="/categories/">categories</a></u>)</h1>
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title | escape | upcase }}</h1>
+    </header>
     <div id="line-x"><hr /></div>
     <br>
     <ul class="post-list">

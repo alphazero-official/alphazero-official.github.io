@@ -4,6 +4,39 @@
   {%- include head.html -%}
 <script data-goatcounter="https://alphazero.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+<style>
+    @keyframes move-it {
+  0% {
+    background-position: initial;
+  }
+  100% {
+    background-position: 100px 0px;
+  }
+}
+
+footer {  
+  background: repeating-linear-gradient(
+  45deg,
+  #0f0f0f,
+  #0f0f0f 5%,
+  #000000 5%,
+  #000000 10%
+);
+  background-size: 100px 100px;
+  animation: move-it 10s linear infinite;
+}
+header {  
+  background: repeating-linear-gradient(
+  -45deg,
+  #0f0f0f,
+  #0f0f0f 5%,
+  #000000 5%,
+  #000000 10%
+);
+  background-size: 100px 100px;
+  animation: move-it 10s linear infinite;
+}
+</style>
 <body>
 
     {%- include header.html -%}

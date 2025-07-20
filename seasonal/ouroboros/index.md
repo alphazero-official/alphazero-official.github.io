@@ -42,9 +42,6 @@ var speed = 33
 var i = 0
 function rotate() {
     document.getElementById("ouroboros").style.transform = "rotate(-"+ (0.2*i) +"deg)";
-    if (0.2*i >= 360){
-      i = 0;
-    }
     i++;
     setTimeout(rotate, speed);
 }
