@@ -1,6 +1,5 @@
 ---
-layout: posts
-title: Posts
+layout: default
 permalink: /posts/
-header: true
 ---
+<head><meta http-equiv="refresh" content="0; url=/blog/" /></head>

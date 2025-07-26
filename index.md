@@ -28,13 +28,14 @@ background: "/assets/image/ouroboros/ouro-bg.png"
 <a href="/about/"><font color ="#AAAAFF">ABOUT</font></a> 
 </span>
 / 
+<span id="posts">
+<a href="/blog/"><font color ="#AAAAFF">BLOG</font></a>
+</span>
+/
 <span id="music">
 <a href="/music/"><font color ="#AAAAFF">MUSIC</font></a>
 </span>
-/
-<span id="posts">
-<a href="/posts/"><font color ="#AAAAFF">POSTS</font></a>
-</span>
+
 
 </font></p>
 <script>
