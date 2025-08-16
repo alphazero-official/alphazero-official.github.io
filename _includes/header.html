@@ -1,10 +1,20 @@
 <header class="site-header" role="banner" style="z-index: 20">
+    <style>
+        .search {
+            padding-left: 10px;
+            padding-top: 1px;
+        }
+        input[type="text"]{width: 100%; box-sizing: border-box;}:focus{outline: none;}
+        .search-input {
+            border: 0; border-bottom: 2px solid #777; background-color: rgba(0,0,0,0.4);
+        }
+    </style>
     <div class="wrapper">
         {%- assign default_paths = site.pages | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
         <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img src="/assets/image/AZ2022.png" alt="AZ2022" width="42" /></a>
         <div id="search" class="search">
-            <input type="text" id="search-input" placeholder="search...">
+            <input type="text" class="search-input" id="search-input" placeholder="search...">
             <ul id="results-container"></ul>
         </div>
 
