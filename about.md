@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 header: true
 ---
-**alpha.zero** (stylised &alpha;lpha.zero) is a development studio and community started by 1oolm in 2022. <br>
+**alpha.zero** (stylized &alpha;lpha.zero) is a development studio and community started by 1oolm in 2022. <br>
 Its purpose is to express myself and create unique content, whether it be games, music or more.
 <br>
 <style>
