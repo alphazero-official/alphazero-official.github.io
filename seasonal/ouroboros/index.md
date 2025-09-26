@@ -25,15 +25,15 @@ background: "/assets/image/ouroboros/ouro-bg.png"
 <br>
 <p align="center"><font size="6">
 <span id="about">
-<a href="/about/"><font color ="#AAAAFF">ABOUT</font></a> 
+<a href="/about/"><font color ="#FFBEBE">ABOUT</font></a> 
 </span>
 / 
 <span id="music">
-<a href="/music/"><font color ="#AAAAFF">MUSIC</font></a>
+<a href="/music/"><font color ="#FFBEBE">MUSIC</font></a>
 </span>
 /
 <span id="posts">
-<a href="/posts/"><font color ="#AAAAFF">POSTS</font></a>
+<a href="/posts/"><font color ="#FFBEBE">POSTS</font></a>
 </span>
 
 </font></p>

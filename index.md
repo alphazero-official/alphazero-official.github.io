@@ -55,15 +55,15 @@ body {
 <br>
 <p align="center"><font size="6">
 <span id="about">
-<a href="/about/"><font color ="#AAAAFF">ABOUT</font></a> 
+<a href="/about/"><font color ="#FFBEBE">ABOUT</font></a> 
 </span>
 / 
 <span id="posts">
-<a href="/blog/"><font color ="#AAAAFF">BLOG</font></a>
+<a href="/blog/"><font color ="#FFBEBE">BLOG</font></a>
 </span>
 /
 <span id="music">
-<a href="/music/"><font color ="#AAAAFF">MUSIC</font></a>
+<a href="/music/"><font color ="#FFBEBE">MUSIC</font></a>
 </span>
 
 
