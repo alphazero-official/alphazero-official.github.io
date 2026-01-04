@@ -8,3 +8,5 @@ _drafts/
 vendor/
 *.vsidx
 .vs/
+.megaignore
+.pdn

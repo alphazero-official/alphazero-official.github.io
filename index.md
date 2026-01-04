@@ -19,7 +19,7 @@ body {
   padding: 150px;
    animation: float 6s ease-in-out infinite;
 }
-.logo {
+.azlogo {
   position: absolute;
   top: 0;
   left: 0;
@@ -46,8 +46,8 @@ body {
 
 </style>
 <div class="constraint">
-<img id="azlogo" class="logo" src="/assets/image/ouroboros/ouro-az.png" alt="alpha.zero" width="300"/>
-<img id="ouroboros" class="logo" src="/assets/image/ouroboros/ouro-snek.png" alt="OUROBOROS" width="300"/>
+<img id="azlogo" class="azlogo" src="/assets/image/ouroboros/ouro-az.png" alt="alpha.zero" width="300"/>
+<img id="ouroboros" class="azlogo" src="/assets/image/ouroboros/ouro-snek.png" alt="OUROBOROS" width="300"/>
 </div>
 
 <br>

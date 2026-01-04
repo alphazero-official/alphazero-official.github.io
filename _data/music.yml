@@ -1,3 +1,171 @@
+- title: "1KIJE^3"
+  artist: "1oolm"
+  id: 1
+  spotify: "https://open.spotify.com/track/4Fj2NXuEpTZoCKGuCPRwMo"
+  youtube: "https://youtu.be/6Le5YIMsTwE"
+  itunes: "https://music.apple.com/us/album/1kije-3/1712394268"
+  tidal: "https://tidal.com/album/322350307"
+  soundcloud: "https://soundcloud.com/1oolm/1kije3"
+  bandcamp: "https://1oolm.bandcamp.com/track/1kije-3"
+  fileflac: "/music/1/KIJ.flac"
+  filemp3: "/music/1/KIJ.mp3"
+  filegfx: "/music/1/KIJ-GFX.zip"
+  length: "3:48"
+  genres: "lo-fi"
+  year: 2023
+  date: "20/07/2023"
+  type: single
+  license: "cc-by-nc"
+
+- title: "Constraint"
+  artist: "1oolm & Stretched Across Infinity"
+  id: 2
+  spotify: "https://open.spotify.com/track/380BQhBts7YjTreT1pXfbD"
+  youtube: "https://youtu.be/osdFRu9B39w"
+  itunes: "https://music.apple.com/us/album/constraint/1712394115"
+  tidal: "https://tidal.com/album/322350305"
+  soundcloud: "https://soundcloud.com/1oolm/constraint"
+  bandcamp: "https://1oolm.bandcamp.com/track/constraint"
+  fileflac: "/music/2/CNS.flac"
+  filemp3: "/music/2/CNS.mp3"
+  filegfx: "/music/2/CNS-GFX.zip"
+  length: "2:56"
+  genres: "hardcore"
+  year: 2023
+  date: "15/08/2023"
+  type: single
+  license: "cc-by-nc"
+  
+- title: "tomorrowcave"
+  artist: "1oolm"
+  id: 3
+  spotify: "https://open.spotify.com/track/2EfyHlQg2GPTqGGaPfUeRa"
+  youtube: "https://youtu.be/w5Tw8VMKXow"
+  itunes: "https://music.apple.com/us/album/tomorrowcave/1712394301"
+  tidal: "https://tidal.com/album/322350309"
+  soundcloud: "https://soundcloud.com/1oolm/tomorrowcave"
+  bandcamp: "https://1oolm.bandcamp.com/track/tomorrowcave"
+  fileflac: "/music/3/TMR.flac"
+  filemp3: "/music/3/TMR.mp3"
+  filegfx: "/music/3/TMR-GFX.zip"
+  length: "2:34"
+  genres: "ambient"
+  year: 2023
+  date: "21/09/2023"
+  type: single
+  license: "cc-by-nc"
+
+- title: "Devastation"
+  artist: "1oolm & Stretched Across Infinity"
+  id: 4
+  spotify: "https://open.spotify.com/track/0ZIp6ZjC0FKxR6fovwCqwA"
+  youtube: "https://youtu.be/8IE-jvjW7V0"
+  itunes: "https://music.apple.com/us/album/devastation/1712587182"
+  tidal: "https://tidal.com/album/322650214"
+  soundcloud: "https://soundcloud.com/1oolm/devastation"
+  bandcamp: "https://1oolm.bandcamp.com/track/devastation"
+  fileflac: "/music/4/DEV.flac"
+  filemp3: "/music/4/DEV.mp3"
+  filegfx: "/music/4/DEV-GFX.zip"
+  length: "2:44"
+  genres: "hardcore"
+  year: 2023
+  date: "28/09/2023"
+  type: single
+  license: "cc-by-nc"
+
+- title: "Constraint (High Mass Remix)"
+  artist: "1oolm & Stretched Across Infinity"
+  id: 5
+  spotify: "https://open.spotify.com/track/1dbaYlwPxvBJsiSTT660cx"
+  youtube: "https://youtu.be/D7N6i-6yJJY"
+  itunes: "https://music.apple.com/us/album/constraint-high-mass-remix/1719570859"
+  tidal: "https://tidal.com/album/332826666"
+  soundcloud: "https://soundcloud.com/1oolm/constraint-hmr"
+  bandcamp: "https://1oolm.bandcamp.com/track/constraint-high-mass-remix"
+  fileflac: "/music/5/CNS_HMR.flac"
+  filemp3: "/music/5/CNS_HMR.mp3"
+  filestems: "/music/5/CNS_HMR_STEMS.7z"
+  filestemstype: "FLP+WAV"
+  filegfx: "/music/5/CNS_HMR-GFX.zip"
+  length: "2:30"
+  genres: "hardcore"
+  year: 2023
+  date: "08/12/2023"
+  type: single
+  license: "cc-by-nc"
+
+- title: "Eyewaltz"
+  artist: "1oolm"
+  id: 6
+  spotify: "https://open.spotify.com/track/40MTB41IAQpcAk891aWcjK"
+  youtube: "https://youtu.be/dvXwt7GZegQ"
+  itunes: "https://music.apple.com/us/album/eyewaltz/1726694181"
+  tidal: "https://tidal.com/album/341015835"
+  soundcloud: "https://soundcloud.com/1oolm/eyewaltz"
+  bandcamp: "https://1oolm.bandcamp.com/track/eyewaltz"
+  fileflac: "/music/6/EYE.flac"
+  filemp3: "/music/6/EYE.mp3"
+  filegfx: "/music/6/EYE-GFX.zip"
+  length: "2:45"
+  genres: "hardcore"
+  year: 2024
+  date: "20/01/2024"
+  type: single
+  license: "cc-by-nc"
+
+- title: "UNDEFINABLE"
+  artist: "1oolm & Stretched Across Infinity"
+  id: 7
+  spotify: "https://open.spotify.com/track/74NiWwuoHdGC0wtPNMTVOq"
+  youtube: "https://youtu.be/LPSdp5tYVb0"
+  itunes: "https://music.apple.com/us/album/undefinable/1734417166"
+  tidal: "https://tidal.com/album/349097023"
+  soundcloud: "https://soundcloud.com/1oolm/undefinable"
+  bandcamp: "https://1oolm.bandcamp.com/track/undefinable"
+  fileflac: "/music/7/UND.flac"
+  filemp3: "/music/7/UND.mp3"
+  filegfx: "/music/7/UND-GFX.zip"
+  length: "4:20"
+  genres: "hardcore"
+  year: 2024
+  date: "08/03/2024"
+  type: single
+  license: "cc-by-nc"
+
+- title: "TIMELOOP (feat. Rax)"
+  artist: "1oolm"
+  id: 8
+  spotify: "https://open.spotify.com/track/7tR9eNlAnlltIVE31Zepq2"
+  youtube: "https://youtu.be/c49KWSHXzZE"
+  itunes: "https://music.apple.com/us/album/timeloop-feat-rax/1788580304"
+  tidal: "https://tidal.com/browse/album/409127231"
+  soundcloud: "https://soundcloud.com/1oolm/timeloop"
+  bandcamp: "https://1oolm.bandcamp.com/track/timeloop-feat-rax"
+  fileflac: "/music/8/TIM.flac"
+  filemp3: "/music/8/TIM.mp3"
+  filegfx: "/music/8/TIM-GFX.zip"
+  length: "4:21"
+  genres: "hardcore"
+  year: 2024
+  date: "20/07/2024"
+  type: single
+  license: "cc-by-nc"
+
+- title: "CARAMEL"
+  artist: "1oolm"
+  id: 9
+  youtube: "https://youtu.be/oYP2UTYA6Yw"
+  soundcloud: "https://soundcloud.com/1oolm/caramel"
+  bandcamp: "https://1oolm.bandcamp.com/track/caramel"
+  filemp3: "/music/9/CAR.mp3"
+  filegfx: "/music/9/CAR-GFX.zip"
+  length: "3:00"
+  genres: "breakcore"
+  year: 2025
+  date: "11/10/2025"
+  type: single
+
 - title: "OUROBOROS"
   artist: "1oolm"
   id: 10
@@ -25,170 +193,16 @@
   {name: "REWIND", id: 12, length: "4:37", sclink: "rewind"},
   ]
 
-- title: "CARAMEL"
+- title: "GRAVEDIGGER [REPRISE] (seraph ver.)"
   artist: "1oolm"
-  id: 9
-  youtube: "https://youtu.be/oYP2UTYA6Yw"
-  soundcloud: "https://soundcloud.com/1oolm/caramel"
-  bandcamp: "https://1oolm.bandcamp.com/track/caramel"
-  filemp3: "/music/9/CAR.mp3"
-  filegfx: "/music/9/CAR-GFX.zip"
-  length: "3:00"
-  genres: "breakcore"
-  year: 2025
-  date: "11/10/2025"
+  id: 11
+  youtube: "https://youtu.be/jtde5f9Sw0I"
+  soundcloud: "https://soundcloud.com/1oolm/seraph"
+  bandcamp: "https://1oolm.bandcamp.com/track/gravedigger-reprise-seraph-ver"
+  filemp3: "/music/11/SERA.mp3"
+  filegfx: "/music/11/SERA-GFX.zip"
+  length: "4:30"
+  genres: "braindance"
+  year: 2026
+  date: "13/01/2026"
   type: single
-
-- title: "TIMELOOP (feat. Rax)"
-  artist: "1oolm"
-  id: 8
-  spotify: "https://open.spotify.com/track/7tR9eNlAnlltIVE31Zepq2"
-  youtube: "https://youtu.be/c49KWSHXzZE"
-  itunes: "https://music.apple.com/us/album/timeloop-feat-rax/1788580304"
-  tidal: "https://tidal.com/browse/album/409127231"
-  soundcloud: "https://soundcloud.com/1oolm/timeloop"
-  bandcamp: "https://1oolm.bandcamp.com/track/timeloop-feat-rax"
-  fileflac: "/music/8/TIM.flac"
-  filemp3: "/music/8/TIM.mp3"
-  filegfx: "/music/8/TIM-GFX.zip"
-  length: "4:21"
-  genres: "hardcore"
-  year: 2024
-  date: "20/07/2024"
-  type: single
-  license: "cc-by-nc"
-
-- title: "UNDEFINABLE"
-  artist: "1oolm & Stretched Across Infinity"
-  id: 7
-  spotify: "https://open.spotify.com/track/74NiWwuoHdGC0wtPNMTVOq"
-  youtube: "https://youtu.be/LPSdp5tYVb0"
-  itunes: "https://music.apple.com/us/album/undefinable/1734417166"
-  tidal: "https://tidal.com/album/349097023"
-  soundcloud: "https://soundcloud.com/1oolm/undefinable"
-  bandcamp: "https://1oolm.bandcamp.com/track/undefinable"
-  fileflac: "/music/7/UND.flac"
-  filemp3: "/music/7/UND.mp3"
-  filegfx: "/music/7/UND-GFX.zip"
-  length: "4:20"
-  genres: "hardcore"
-  year: 2024
-  date: "08/03/2024"
-  type: single
-  license: "cc-by-nc"
-
-- title: "Eyewaltz"
-  artist: "1oolm"
-  id: 6
-  spotify: "https://open.spotify.com/track/40MTB41IAQpcAk891aWcjK"
-  youtube: "https://youtu.be/dvXwt7GZegQ"
-  itunes: "https://music.apple.com/us/album/eyewaltz/1726694181"
-  tidal: "https://tidal.com/album/341015835"
-  soundcloud: "https://soundcloud.com/1oolm/eyewaltz"
-  bandcamp: "https://1oolm.bandcamp.com/track/eyewaltz"
-  fileflac: "/music/6/EYE.flac"
-  filemp3: "/music/6/EYE.mp3"
-  filegfx: "/music/6/EYE-GFX.zip"
-  length: "2:45"
-  genres: "hardcore"
-  year: 2024
-  date: "20/01/2024"
-  type: single
-  license: "cc-by-nc"
-
-- title: "Constraint (High Mass Remix)"
-  artist: "1oolm & Stretched Across Infinity"
-  id: 5
-  spotify: "https://open.spotify.com/track/1dbaYlwPxvBJsiSTT660cx"
-  youtube: "https://youtu.be/D7N6i-6yJJY"
-  itunes: "https://music.apple.com/us/album/constraint-high-mass-remix/1719570859"
-  tidal: "https://tidal.com/album/332826666"
-  soundcloud: "https://soundcloud.com/1oolm/constraint-hmr"
-  bandcamp: "https://1oolm.bandcamp.com/track/constraint-high-mass-remix"
-  fileflac: "/music/5/CNS_HMR.flac"
-  filemp3: "/music/5/CNS_HMR.mp3"
-  filestems: "/music/5/CNS_HMR_STEMS.7z"
-  filestemstype: "FLP+WAV"
-  filegfx: "/music/5/CNS_HMR-GFX.zip"
-  length: "2:30"
-  genres: "hardcore"
-  year: 2023
-  date: "08/12/2023"
-  type: single
-  license: "cc-by-nc"
-
-- title: "Devastation"
-  artist: "1oolm & Stretched Across Infinity"
-  id: 4
-  spotify: "https://open.spotify.com/track/0ZIp6ZjC0FKxR6fovwCqwA"
-  youtube: "https://youtu.be/8IE-jvjW7V0"
-  itunes: "https://music.apple.com/us/album/devastation/1712587182"
-  tidal: "https://tidal.com/album/322650214"
-  soundcloud: "https://soundcloud.com/1oolm/devastation"
-  bandcamp: "https://1oolm.bandcamp.com/track/devastation"
-  fileflac: "/music/4/DEV.flac"
-  filemp3: "/music/4/DEV.mp3"
-  filegfx: "/music/4/DEV-GFX.zip"
-  length: "2:44"
-  genres: "hardcore"
-  year: 2023
-  date: "28/09/2023"
-  type: single
-  license: "cc-by-nc"
-  
-- title: "tomorrowcave"
-  artist: "1oolm"
-  id: 3
-  spotify: "https://open.spotify.com/track/2EfyHlQg2GPTqGGaPfUeRa"
-  youtube: "https://youtu.be/w5Tw8VMKXow"
-  itunes: "https://music.apple.com/us/album/tomorrowcave/1712394301"
-  tidal: "https://tidal.com/album/322350309"
-  soundcloud: "https://soundcloud.com/1oolm/tomorrowcave"
-  bandcamp: "https://1oolm.bandcamp.com/track/tomorrowcave"
-  fileflac: "/music/3/TMR.flac"
-  filemp3: "/music/3/TMR.mp3"
-  filegfx: "/music/3/TMR-GFX.zip"
-  length: "2:34"
-  genres: "ambient"
-  year: 2023
-  date: "21/09/2023"
-  type: single
-  license: "cc-by-nc"
-
-- title: "Constraint"
-  artist: "1oolm & Stretched Across Infinity"
-  id: 2
-  spotify: "https://open.spotify.com/track/380BQhBts7YjTreT1pXfbD"
-  youtube: "https://youtu.be/osdFRu9B39w"
-  itunes: "https://music.apple.com/us/album/constraint/1712394115"
-  tidal: "https://tidal.com/album/322350305"
-  soundcloud: "https://soundcloud.com/1oolm/constraint"
-  bandcamp: "https://1oolm.bandcamp.com/track/constraint"
-  fileflac: "/music/2/CNS.flac"
-  filemp3: "/music/2/CNS.mp3"
-  filegfx: "/music/2/CNS-GFX.zip"
-  length: "2:56"
-  genres: "hardcore"
-  year: 2023
-  date: "15/08/2023"
-  type: single
-  license: "cc-by-nc"
-
-- title: "1KIJE^3"
-  artist: "1oolm"
-  id: 1
-  spotify: "https://open.spotify.com/track/4Fj2NXuEpTZoCKGuCPRwMo"
-  youtube: "https://youtu.be/6Le5YIMsTwE"
-  itunes: "https://music.apple.com/us/album/1kije-3/1712394268"
-  tidal: "https://tidal.com/album/322350307"
-  soundcloud: "https://soundcloud.com/1oolm/1kije3"
-  bandcamp: "https://1oolm.bandcamp.com/track/1kije-3"
-  fileflac: "/music/1/KIJ.flac"
-  filemp3: "/music/1/KIJ.mp3"
-  filegfx: "/music/1/KIJ-GFX.zip"
-  length: "3:48"
-  genres: "lo-fi"
-  year: 2023
-  date: "20/07/2023"
-  type: single
-  license: "cc-by-nc"

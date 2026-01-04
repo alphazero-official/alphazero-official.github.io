@@ -10,14 +10,25 @@ layout: default
 {{ content }}
 <br>
 <div class="release-list" id="release-list">
-    {%- for release in site.data.music -%}{% unless release.draft %}
+    {% assign music = site.data.music | reverse %}
+    {%- for release in music -%}{% unless release.draft %}
     {% assign releasetype = release.type %}
     {% assign releaseartist = release.artist %}
+    {% assign releaseid = release.id %}
    <div class="release" id="release" style="background-color: black; color: white; padding: 20px; border: double; border-color: white; margin-bottom: 0; ">
-        <span id="cover"><img src="/music/{{ release.id }}/cover.jpg" style="float: left; margin-right: 5%; background-size:contain; margin-bottom: 2em; max-block-size:100%; max-height:100%; width:14%; margin-right=5%; margin-bottom:7%; object-fit:contain; border: double; border-color: gray;"></img></span>
-        <h3><a href="/music/{{ release.id }}/page.html">{{ release.title }}</a> ({{ release.year }})</h3>
+        <span class="rid" style="z-index: -99; color: gray;">
+        {% assign fuck = release.id | divided_by: 10 %}
+        {% if fuck < 1 %}
+            #{{ releaseid | prepend: 0 }}
+        {% else %}
+            #{{ releaseid }}  
+        {%- endif -%}
+        </span>
+        <span id="cover"><img src="/music/{{ release.id }}/cover.jpg" style="float: left; margin-right: 5%; background-size:contain; margin-bottom: 2em; max-block-size:100%; max-width:fit-content; max-height:fit-content; height:90%; margin-right:5%; margin-bottom:0%; object-fit:contain; border: double; border-color: gray;"></img></span>
+        <h3><a href="/music/{{ releaseid }}/page.html">{{ release.title }}</a> <font color="gray">({{ release.year }})</font></h3>
         <h5><a href={{ site.data.musictypeinfo[releasetype].link }}>{{ release.type }}</a> by {{ release.artist }} | {{ release.genres }} | {{ release.length }}</h5>
-   </div>{% endunless %}
+   </div>
+      {% endunless %}
    {% unless forloop.last %}<br>{% endunless %}
    {%- endfor -%}
 </div>
