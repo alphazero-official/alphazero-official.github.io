@@ -1,0 +1,92 @@
+---
+layout: default
+---
+<style>
+body {
+  background-image: url(/assets/image/sanctuary.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+img:not(.logo) {
+  border: 3px double;
+}
+
+img:not(.pswp__img):not(.logo) {
+  max-height: 600px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-width: 40%;
+  max-inline-size: 40%;
+}
+
+.fullscreen-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  backdrop-filter: blur(5px);
+}
+
+video {
+  border: 3px double;
+}
+
+audio {
+    filter: contrast(99%) invert(100%);
+    border: 3px double;
+    width: 90%;
+    height: 55px;
+      background: repeating-linear-gradient(
+  45deg,
+  #ffffffaa,
+  #ffffffaa 5%,
+  #aaaaaa55 5%,
+  #aaaaaa55 10%
+    );
+  animation: move-it 10s linear infinite;
+}
+@keyframes move-it {
+  0% {
+    background-position: initial;
+  }
+  100% {
+    background-position: 100px 0px;
+  }}
+
+  h1,h3 {  
+  background: repeating-linear-gradient(
+  -45deg,
+  #0f0f0f,
+  #0f0f0f 5%,
+  #000000 5%,
+  #000000 10%
+    );
+  background-size: 100px 100px;
+  animation: move-it 10s linear infinite;
+};
+</style>
+
+
+<div class="post-header">
+    <img src="/assets/image/sanctuary-title.jpg" max-height="100px" style="display:block; margin:auto">
+</div>
+<div id="line-x"><hr /></div>
+<br>
+<br>
+<div class="post-content e-content" itemprop="articleBody">
+  {{ content }}
+</div>
+<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
