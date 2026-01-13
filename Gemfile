@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+gem 'google-protobuf'
 gem "jekyll", "~> 4.3.2"
 gem "minima", "~> 2.5.1"
 group :jekyll_plugins do
@@ -19,6 +20,5 @@ gem "webrick", "~> 1.8"
 
 gem "csv", "~> 3.3"
 
-gem 'wdm', '>= 0.1.0'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
-gem 'google-protobuf'
