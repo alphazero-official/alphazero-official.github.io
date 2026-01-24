@@ -39,9 +39,19 @@ header,h1,th {
 </style>
 <body>
     <main class="page-content" aria-label="Content">
+        <video muted autoplay loop style="position: fixed; right:0; z-index: -69; bottom: 0; min-width: 100%; min-height: 100%">
+          <source src="/assets/video/vhsnoise.webm" type="video/webm">
+        </video>  
         <div class="wrapper">
             {{ content }}
         </div>
     </main>
 </body>
+
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="wrapper">
+    <h2 class="footer-heading">alpha.zero</h2>
+  </div>
+</footer>
 </html>

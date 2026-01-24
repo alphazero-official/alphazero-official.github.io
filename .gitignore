@@ -9,4 +9,6 @@ vendor/
 *.vsidx
 .vs/
 .megaignore
-.pdn
+*.pdn
+Rubbish/
+.obsidian
