@@ -10,7 +10,7 @@ description: The OUROBOROS album is out now.
 ---
 The OUROBOROS album is out now. 18 months of development.<br>
 <div style='margin: auto; background-position: center; text-align: center; max-width: 96%;'></div>
-<font size="5"><a href="https://www.roblox.com/games/110194257713867/Wegas-Madness"><font color="#AAAAAA">SITEPAGE</font></a>
+<font size="5"><a href="/music/10/page.html"><font color="#AAAAAA">SITEPAGE</font></a>
 //&nbsp;<a href="https://youtu.be/PHIcL7vfmqc"><font color="#DC0000">YOUTUBE</font></a>
 //&nbsp;<a href="https://soundcloud.com/1oolm/sets/ouroboros"><font color="#FF7600">SOUNDCLOUD</font></a>
 //&nbsp;<a href="https://1oolm.bandcamp.com/album/ouroboros"><font color="#629AA8">BANDCAMP</font></a>
