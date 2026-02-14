@@ -4,13 +4,14 @@ background: "/assets/image/ouroboros/ouro-bg.png"
 ---
 <style>
 body {
-  backdrop-filter: brightness(10%); blur(10px);
-  background-image: url(/assets/image/bg.jpg);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+    -webkit-backdrop-filter: brightness(10%); blur(10px);
+    backdrop-filter: brightness(10%); blur(10px);
+    background-image: url(/assets/image/bg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .constraint {
   position: relative;

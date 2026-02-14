@@ -5,13 +5,14 @@ layout: default
 {%- for rel in site.data.music -%}{%- if rel.id == id -%}{%- assign release = rel -%}{%- endif -%}{%- endfor -%}
 <style>
 body {
-  backdrop-filter: blur(10px) brightness(14%);
-  background-image: url(./cover.jpg);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+    -webkit-backdrop-filter: blur(10px) brightness(14%);
+    backdrop-filter: blur(10px) brightness(14%);
+    background-image: url(./cover.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 audio {
     filter: contrast(99%) invert(100%);
