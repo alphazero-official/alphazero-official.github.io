@@ -192,3 +192,23 @@
   year: 2026
   date: "13/01/2026"
   type: single
+
+- title: "split"
+  artist: "1oolm"
+  id: 12
+  youtube: "https://youtu.be/U4IIqFJkCnI"
+  soundcloud: "https://soundcloud.com/1oolm/sets/split"
+  bandcamp: "https://1oolm.bandcamp.com/album/split"
+  filemp3: "/music/12/SPLIT-MP3.zip"
+  filegfx: "/music/12/SPLIT-GFX.zip"
+  length: "4 tracks (11:36)"
+  genres: "ambient"
+  year: 2026
+  date: "24/05/2026"
+  type: EP
+  tracklist: [
+  {name: "since when", id: 1, length: "3:33", sclink: "since-when"},
+  {name: "she's playing", id: 2, length: "1:18", sclink: "shes-playing"},
+  {name: "death date", id: 3, length: "4:01", sclink: "death-date"},
+  {name: "mutually assured destruction", id: 4, length: "2:46", sclink: "mad"},
+  ]

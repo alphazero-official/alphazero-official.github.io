@@ -1,0 +1,28 @@
+---
+layout: release
+title: split
+id: 12
+comments: true
+image: /music/12/cover.jpg
+description: split is the first EP released under alpha.zero.
+---
+<b>split</b> is the first EP released under alpha.zero.
+<br><br>
+The EP was released digitally on May 24th, 2026 on Youtube, SoundCloud and Bandcamp.
+<br><br>
+This release is preceded by <i><a href="/music/11/page.html">GRAVEDIGGER [REPRISE] (seraph ver.)</a></i>.
+<br><br>
+<div id="line"><hr /></div><br>
+No information is currently provided.
+<br><br>
+<h2>TRACKLIST:</h2>
+<div id="line"><hr /></div><br>
+{%- for track in site.data.music[10].tracklist -%}
+   <a href="https://soundcloud.com/1oolm/{{ track.sclink }}">
+    <div class="track" id="track" style="background-color: black; height:50px; background-size: cover; background-position: center; position:relative; padding: 10px; background-image: url(/music/12/steamed.jpg); color: white; border: double; border-color: white; margin-bottom: 0; ">
+    <div class="trackname" style="margin:auto"><font size="4">{{ track.name }}</font></div> 
+    <div class="tracklength" style="float: right; position:absolute; right: 10px; bottom: 10px;"><font size="4">{{ track.length }}</font></div>
+   </div>
+    </a>
+   {% unless forloop.last %}<br>{% endunless %}
+{%- endfor -%}
