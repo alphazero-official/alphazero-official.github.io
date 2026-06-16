@@ -152,6 +152,20 @@
   type: single
   license: "cc-by-nc"
 
+- title: "CARAMEL"
+  artist: "1oolm"
+  id: 9
+  youtube: "https://youtu.be/oYP2UTYA6Yw"
+  soundcloud: "https://soundcloud.com/1oolm/caramel"
+  bandcamp: "https://1oolm.bandcamp.com/track/caramel"
+  filemp3: "/music/9/CAR.mp3"
+  filegfx: "/music/9/CAR-GFX.zip"
+  length: "3:00"
+  genres: "breakcore"
+  year: 2025
+  date: "11/10/2025"
+  type: single
+
 - title: "OUROBOROS"
   artist: "1oolm"
   id: 10
