@@ -226,3 +226,17 @@
   {name: "death date", id: 3, length: "4:01", sclink: "death-date"},
   {name: "mutually assured destruction", id: 4, length: "2:46", sclink: "mad"},
   ]
+
+- title: "lucky day [1oolm remix]"
+  artist: "quakshyy!!"
+  id: 13
+  youtube: "https://youtu.be/jtde5f9Sw0I"
+  soundcloud: "https://soundcloud.com/1oolm/luckyday"
+  bandcamp: "https://1oolm.bandcamp.com/track/lucky-day-1oolm-remix"
+  filemp3: "/music/13/LUCK.mp3"
+  filegfx: "/music/13/LUCK-GFX.zip"
+  length: "1:32"
+  genres: "hardcore"
+  year: 2026
+  date: "20/07/2026"
+  type: single
