@@ -240,3 +240,17 @@
   year: 2026
   date: "20/07/2026"
   type: single
+
+- title: "quetzalcoatl"
+  artist: "1oolm"
+  id: 14
+  youtube: "https://youtu.be/tXnbpKbZu_g"
+  soundcloud: "https://soundcloud.com/1oolm/quetzalcoatl"
+  bandcamp: "https://1oolm.bandcamp.com/track/quetzalcoatl"
+  filemp3: "/music/14/QUE.mp3"
+  filegfx: "/music/14/QUE-GFX.zip"
+  length: "3:07"
+  genres: "breakcore"
+  year: 2026
+  date: "05/08/2026"
+  type: single
