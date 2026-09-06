@@ -155,6 +155,7 @@
 - title: "CARAMEL"
   artist: "1oolm"
   id: 9
+  spotify: "https://open.spotify.com/track/53bywZnEj4vnZXSIRlGRMU"
   youtube: "https://youtu.be/oYP2UTYA6Yw"
   soundcloud: "https://soundcloud.com/1oolm/caramel"
   bandcamp: "https://1oolm.bandcamp.com/track/caramel"
@@ -253,4 +254,18 @@
   genres: "breakcore"
   year: 2026
   date: "05/08/2026"
+  type: single
+
+- title: "syncora"
+  artist: "1oolm & zepsubstance"
+  id: 15
+  youtube: "https://youtu.be/tXnbpKbZu_g"
+  soundcloud: "https://soundcloud.com/1oolm/syncora"
+  bandcamp: "https://1oolm.bandcamp.com/track/syncora"
+  filemp3: "/music/15/SYN.mp3"
+  filegfx: "/music/15/SYN-GFX.zip"
+  length: "3:30"
+  genres: "breakcore"
+  year: 2026
+  date: "06/09/2026"
   type: single
