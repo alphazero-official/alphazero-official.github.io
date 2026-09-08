@@ -1,5 +1,5 @@
 pip uninstall apindex -y
-pip install git+https://github.com/alphazero-official/static-file-index
+pip install git+https://github.com/azrecords/static-file-index
 cd ./music/10/retrospective/
 apindex .
 cd ..\..\..
