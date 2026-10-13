@@ -13,50 +13,11 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-.constraint {
-  position: relative;
-  margin: auto;
-  width: 0%;
-  padding: 150px;
-  animation: float 6s ease-in-out infinite;
-}
-.azlogo {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-5px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-.message {
-    background-image: linear-gradient(#fff, rgba(153, 153, 153, 1));
-    color: transparent;
-    background-clip: text;
-}
-
 </style>
-<div class="constraint">
-<img id="azlogo" class="azlogo" src="/assets/image/ouroboros/ouro-az.png" alt="alpha.zero" width="300"/>
-<img id="ouroboros" class="azlogo" src="/assets/image/ouroboros/ouro-snek.png" alt="OUROBOROS" width="300"/>
-</div>
-
-<video muted autoplay loop style="position: fixed; right:0; z-index: -69; bottom: 0; min-width: 100%; min-height: 100%">
-    <source src="/assets/video/ourobg.webm" type="video/webm">
-</video>
+<p align="center"><img id="azlogo" src="/assets/image/AZ2022.png" alt="AZ2022" width="200"/></p>
 
 <br>
-<p align="center"><font size="5"><a href="/music/10/page.html"><span class="message"> OUROBOROS <br> OUT NOW </span></a></font></p>
+<p align="center"><font size="5"><a href="/submit/"><span class="message"> SUBMISSIONS <br> NOW OPEN </span></a></font></p>
 <br>
 <p align="center"><font size="6">
 <span id="posts">
@@ -74,17 +35,4 @@ body {
 
 
 </font></p>
-<script>
-var speed = 33
-var i = 0
-function rotate() {
-    document.getElementById("ouroboros").style.transform = "rotate(-"+ (0.2*i) +"deg)";
-    if (0.2*i >= 360){
-      i = 0;
-    }
-    i++;
-    setTimeout(rotate, speed);
-}
-rotate()
-</script>
 <br>
