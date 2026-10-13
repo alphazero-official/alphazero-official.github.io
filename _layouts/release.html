@@ -29,10 +29,10 @@ audio {
 </span>
 
 
-<div style='margin: auto; background-position: center; text-align: center;'><font size="6">{{ release.title | upcase }}</font></div>
+<div style='margin: auto; background-position: center; text-align: center;'><font size="6">{{ release.title }}</font></div>
 
 <div style='margin: auto; background-position: center; text-align: center;' id="artistsinfo">
-<font style="color: #b23b82; background-image: -webkit-linear-gradient(90deg, #dddddd 52%, #ffffff 92%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;" size="4">{{ release.artist | upcase }}</font>
+<font style="color: #b23b82; background-image: -webkit-linear-gradient(90deg, #dddddd 52%, #ffffff 92%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;" size="4">{{ release.artist }}</font>
 </div>
 <br>
 <div style='margin: auto; background-position: center; text-align: center;' id="releaseinfo">
@@ -45,22 +45,28 @@ audio {
 <br>
 <div style='margin: auto; background-position: center; text-align: center; max-width: 96%;' id="releaselinks">
 {%- if release.spotify -%}
-<a href={{ release.spotify }}><font color="#1ED759" size="2">Spotify</font></a> {%- if release.youtube -%}{%- endif -%}
+<a href={{ release.spotify }}><img src="/assets/image/social/spotify.png" width=40px /></a> {%- if release.youtube -%}{%- endif -%}
 {%- endif -%}
 {%- if release.youtube -%}
-{%- if release.spotify -%}&nbsp;//&nbsp;{%- endif -%}<a href={{ release.youtube }}><font color="#DC0000" size="2">YouTube</font></a> {%- if release.itunes -%}{%- endif -%}
+{%- if release.spotify -%}&nbsp;//&nbsp;{%- endif -%}<a href={{ release.youtube }}><img src="/assets/image/social/youtube.png" width=40px /></a> {%- if release.itunes -%}{%- endif -%}
 {%- endif -%}
 {%- if release.itunes -%}
-&nbsp;//&nbsp;<a href={{ release.itunes }}><font color="#F94C56" size="2">Apple Music</font></a> {%- if release.tidal -%}{%- endif -%}
+&nbsp;//&nbsp;<a href={{ release.itunes }}><img src="/assets/image/social/itunes.svg" width=40px /></a> {%- if release.tidal -%}{%- endif -%}
 {%- endif -%}
 {%- if release.tidal -%}
-&nbsp;//&nbsp;<a href={{ release.tidal }}><font color="#EEEEEE" size="2">TIDAL</font></a> {%- if release.soundcloud -%}{%- endif -%}
+&nbsp;//&nbsp;<a href={{ release.tidal }}><img src="/assets/image/social/tidal.png" width=40px /></a> {%- if release.soundcloud -%}{%- endif -%}
 {%- endif -%}
 {%- if release.soundcloud -%}
-&nbsp;//&nbsp;<a href={{ release.soundcloud }}><font color="#FF7600" size="2">SoundCloud</font></a> {%- if release.bandcamp -%}{%- endif -%}
+{%- if release.youtube -%}&nbsp;//&nbsp;{%- endif -%}<a href={{ release.soundcloud }}><img src="/assets/image/social/soundcloud.png" width=40px /></a> {%- if release.bandcamp -%}{%- endif -%}
 {%- endif -%}
 {%- if release.bandcamp -%}
-&nbsp;//&nbsp;<a href={{ release.bandcamp }}><font color="#629AA8" size="2">Bandcamp</font></a>
+&nbsp;//&nbsp;<a href={{ release.bandcamp }}><img src="/assets/image/social/bandcamp.png" width=40px /></a>
+{%- endif -%}
+{%- if release.furaffinity -%}
+&nbsp;//&nbsp;<a href={{ release.furaffinity }}><img src="/assets/image/social/furaffinity.svg" width=40px /></a>
+{%- endif -%}
+{%- if release.newgrounds -%}
+&nbsp;//&nbsp;<a href={{ release.newgrounds }}><img src="/assets/image/social/newgrounds.png" width=40px /></a>
 {%- endif -%}
 {%- if release.soon -%}
 <font size="4">COMING SOON</font>
@@ -81,6 +87,10 @@ audio {
 {%- if release.filegfx -%}
     &nbsp;//
     <a href={{ release.filegfx }}><font size="3">GFX ASSETS</font></a>
+{%- endif -%}
+{%- if release.filemp4 -%}
+    &nbsp;//
+    <a href={{ release.filemp4 }}><font size="3">MP4 (VISUALS)</font></a>
 {%- endif -%}
 </div>
 <br>

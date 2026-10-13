@@ -51,22 +51,28 @@ h3 {
 <br>
 <div style='margin: auto; background-position: center; text-align: center; max-width: 96%;' id="releaselinks">
 {%- if page.spotify -%}
-<a href={{ page.spotify }}><font color="#1ED759" size="2">Spotify</font></a> {%- if page.youtube -%}{%- endif -%}
+<a href={{ page.spotify }}><img src="/assets/image/social/spotify.png" width=40px /></a> {%- if page.youtube -%}{%- endif -%}
 {%- endif -%}
 {%- if page.youtube -%}
-{%- if page.spotify -%}&nbsp;//&nbsp;{%- endif -%}<a href={{ page.youtube }}><font color="#DC0000" size="2">YouTube</font></a> {%- if page.itunes -%}{%- endif -%}
+{%- if page.spotify -%}&nbsp;//&nbsp;{%- endif -%}<a href={{ page.youtube }}><img src="/assets/image/social/youtube.png" width=40px /></a> {%- if page.itunes -%}{%- endif -%}
 {%- endif -%}
 {%- if page.itunes -%}
-&nbsp;//&nbsp;<a href={{ page.itunes }}><font color="#F94C56" size="2">Apple Music</font></a> {%- if page.tidal -%}{%- endif -%}
+&nbsp;//&nbsp;<a href={{ page.itunes }}><img src="/assets/image/social/itunes.svg" width=40px /></a> {%- if page.tidal -%}{%- endif -%}
 {%- endif -%}
 {%- if page.tidal -%}
-&nbsp;//&nbsp;<a href={{ page.tidal }}><font color="#EEEEEE" size="2">TIDAL</font></a> {%- if page.soundcloud -%}{%- endif -%}
+&nbsp;//&nbsp;<a href={{ page.tidal }}><img src="/assets/image/social/tidal.png" width=40px /></a> {%- if page.soundcloud -%}{%- endif -%}
 {%- endif -%}
 {%- if page.soundcloud -%}
-&nbsp;//&nbsp;<a href={{ page.soundcloud }}><font color="#FF7600" size="2">SoundCloud</font></a> {%- if page.bandcamp -%}{%- endif -%}
+{%- if page.youtube -%}&nbsp;//&nbsp;{%- endif -%}<a href={{ page.soundcloud }}><img src="/assets/image/social/soundcloud.png" width=40px /></a> {%- if page.bandcamp -%}{%- endif -%}
 {%- endif -%}
 {%- if page.bandcamp -%}
-&nbsp;//&nbsp;<a href={{ page.bandcamp }}><font color="#629AA8" size="2">Bandcamp</font></a>
+&nbsp;//&nbsp;<a href={{ page.bandcamp }}><img src="/assets/image/social/bandcamp.png" width=40px /></a>
+{%- endif -%}
+{%- if page.furaffinity -%}
+&nbsp;//&nbsp;<a href={{ page.furaffinity }}><img src="/assets/image/social/furaffinity.svg" width=40px /></a>
+{%- endif -%}
+{%- if page.newgrounds -%}
+&nbsp;//&nbsp;<a href={{ page.newgrounds }}><img src="/assets/image/social/newgrounds.png" width=40px /></a>
 {%- endif -%}
 </div>
 <br>
