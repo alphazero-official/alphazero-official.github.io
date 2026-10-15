@@ -63,10 +63,10 @@ h3 {
 &nbsp;//&nbsp;<a href={{ page.tidal }}><img src="/assets/image/social/tidal.png" width=40px /></a> {%- if page.soundcloud -%}{%- endif -%}
 {%- endif -%}
 {%- if page.soundcloud -%}
-{%- if page.youtube -%}&nbsp;//&nbsp;{%- endif -%}<a href={{ page.soundcloud }}><img src="/assets/image/social/soundcloud.png" width=40px /></a> {%- if page.bandcamp -%}{%- endif -%}
+{%- if page.youtube or page.tidal or page.itunes or page.spotify -%}&nbsp;//&nbsp;{%- endif -%}<a href={{ page.soundcloud }}><img src="/assets/image/social/soundcloud.png" width=40px /></a> {%- if page.bandcamp -%}{%- endif -%}
 {%- endif -%}
 {%- if page.bandcamp -%}
-&nbsp;//&nbsp;<a href={{ page.bandcamp }}><img src="/assets/image/social/bandcamp.png" width=40px /></a>
+{%- if page.youtube or page.tidal or page.itunes or page.spotify or page.soundcloud -%}&nbsp;//&nbsp;{%- endif -%}<a href={{ page.bandcamp }}><img src="/assets/image/social/bandcamp.png" width=40px /></a>
 {%- endif -%}
 {%- if page.furaffinity -%}
 &nbsp;//&nbsp;<a href={{ page.furaffinity }}><img src="/assets/image/social/furaffinity.svg" width=40px /></a>
